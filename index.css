@@ -5,6 +5,9 @@
     font-family: "Montserrat";
 }
 
+a{
+    color: #6e6e6e;
+}
 /* Unique Clases */
 .custom-d-flex{
     display: flex;
@@ -12,6 +15,18 @@
 
 .custom-j-cen{
     justify-content: center;
+}
+
+.custom-j-sb{
+    justify-content: space-between;
+}
+
+.custom-j-sa{
+    justify-content: space-around;
+}
+
+.custom-a-cen{
+    align-items: center;
 }
 /* ------------ */
 
@@ -23,33 +38,56 @@
     width: 1170px;
     height: 40px;
     background-color: black;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     margin-left: 17px;
 }
 
 .custom-left-icons{
     width: 230px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     margin-top: 2px;
-    font-size: 17.5px;
+    font-size: 17px;
 }
 
 .custom-left-icons i{
     color: #6e6e6e;
 }
 
-.custom-right-icons{
-    display: flex;
-}
 
 .vertical-line-divider{
-    border: 1px solid #6e6e6e;
+    border: 0.5px solid #6e6e6e;
+    margin-left: 2px;
+    height: 17px;
+    margin-top: 1px;
 }
 
-.sign-in-container{
-    display: flex;
+.custom-right-icons{
+    width: 164px;
+    color: #6e6e6e;
+    margin-top: 3px;
+    font-size: 12px;
 }
+
+.custom-right-icons i{
+    font-size: 19px;
+}
+
+.custom-right-icons p{
+    margin-top: 2px;
+}
+
+.sign-container p{
+    margin-left: 4px;
+    margin-top: 3px;
+    color: #6e6e6e;
+    font-weight: 600;
+}
+
+.language-container{
+    width: 64px;
+}
+
+.language-container p{
+    margin-left: 4px;
+    font-weight: 600;
+    margin-top: 3px;
+}
+
