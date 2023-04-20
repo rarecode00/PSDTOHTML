@@ -1,3 +1,4 @@
+@import "https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Round";
 *{
     margin: 0;
     padding: 0;
@@ -27,14 +28,4 @@
     align-items: center;
     margin-top: 2px;
     font-size: 17.5px;
-}
-
-.custom-left-icons a{
-    color: #6f6f6f;
-}
-
-.custom-right-icons{
-    width: 170px;
-    height: 10px;
-    background-color: pink;
 }
