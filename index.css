@@ -5,10 +5,18 @@
     font-family: "Montserrat";
 }
 
+/* Unique Clases */
+.custom-d-flex{
+    display: flex;
+}
+
+.custom-j-cen{
+    justify-content: center;
+}
+/* ------------ */
+
 .custom-container{
     background-color: black;
-    display: flex;
-    justify-content: center;
 }
 
 .custom-nav{
@@ -28,4 +36,20 @@
     align-items: center;
     margin-top: 2px;
     font-size: 17.5px;
+}
+
+.custom-left-icons i{
+    color: #6e6e6e;
+}
+
+.custom-right-icons{
+    display: flex;
+}
+
+.vertical-line-divider{
+    border: 1px solid #6e6e6e;
+}
+
+.sign-in-container{
+    display: flex;
 }
