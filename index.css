@@ -10,9 +10,6 @@ a {
     color: #6e6e6e;
 }
 
-header {
-    overflow-y: hidden;
-}
 
 /* Unique Clases */
 .custom-width{
@@ -68,10 +65,10 @@ header {
 
 
 .vertical-line-divider {
-    border: 1px solid #6e6e6e;
+    height: 20px;
+    width: 1px;
     margin-left: 2px;
-    height: 17px;
-    margin-top: 1px;
+    background-color: #6e6e6e;
 }
 
 .custom-right-icons {
@@ -88,6 +85,11 @@ header {
 .custom-right-icons p {
     margin-top: 2px;
 }
+
+a{
+    text-decoration: none;
+}
+
 
 .sign-container p {
     margin-left: 4px;
@@ -114,4 +116,13 @@ header {
     background-repeat: no-repeat;
     background-position: center;
     padding-bottom: 63px;
+}
+
+.lower-nav-icons a:nth-child(2){
+    border-left: 1px solid red;
+    border-right:1px solid red;
+}
+
+.custom-nav-list{
+
 }
