@@ -15,6 +15,10 @@ header {
 }
 
 /* Unique Clases */
+.custom-width{
+    width: 1170px;
+}
+
 .custom-d-flex {
     display: flex;
 }
