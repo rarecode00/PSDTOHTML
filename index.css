@@ -123,6 +123,24 @@ a{
     border-right:1px solid red;
 }
 
-.custom-nav-list{
+.top-nav{
+    padding: 17px;
+}
 
+.top-nav h2{
+    font-weight: bolder;
+    margin-top: 1px;
+    color: #ffffff;
+}
+
+.custom-nav-list{
+    list-style-type: none;
+    margin-left: 132px;
+    font-weight: bolder;
+}
+
+.custom-nav-list a{
+    margin-right: 18px;
+    font-size: 15px;
+    color: white;
 }
