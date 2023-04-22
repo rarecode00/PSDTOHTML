@@ -135,12 +135,42 @@ a{
 
 .custom-nav-list{
     list-style-type: none;
-    margin-left: 132px;
+    margin-left: 121px;
     font-weight: bolder;
 }
 
 .custom-nav-list a{
-    margin-right: 18px;
-    font-size: 15px;
+    font-size: 13px;
+    font-weight: 900;
     color: white;
+    margin: 0;
+    height: 43px;
+    padding: 3px;
+    /* margin-left: 10px; */
+}
+
+.custom-nav-list a:first-child{
+    border-bottom: 4px solid #c6eac6;
+}
+
+.custom-nav-list i{
+    color:red;
+    margin-left: 7px;
+}
+
+li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3px;
+    padding-left: 10px; 
+}
+
+.lower-nav-icons{
+    margin-left: 95px;
+    margin-top: 7px;
+}
+
+.lower-nav-icons a:first-child{
+    color: red;
 }
