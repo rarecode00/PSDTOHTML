@@ -136,6 +136,11 @@ a{
     margin-top: 4px;
 }
 
+.all-nav-list a:first-child{
+    border-bottom: 4px solid #ff3f81;
+    height: 45px;
+}
+
 .all-nav-list span{
     margin-top: 4px;
     font-family: 'Open Sans', sans-serif;
@@ -189,4 +194,21 @@ a{
 .nav-list-icons a:last-child{
     margin-top: 4px;
     margin-left: 15px;
+}
+
+.bottom-mid-content{
+    margin-top: 212px;
+}
+
+.bottom-mid-content h2{
+    margin-left: 350px;
+    font-size: 21px;
+    color: white;
+}
+
+.bottom-mid-content h1{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 46px;
+    border: 1px solid red;
+    color: white;
 }
