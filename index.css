@@ -110,7 +110,6 @@ a{
 
 /* ----------------------- */
 
-
 .custom-bottom-nav {
     background-image: url(public/cover.png);
     background-repeat: no-repeat;
@@ -118,21 +117,3 @@ a{
     padding-bottom: 63px;
 }
 
-.bottom-nav-content-container{
-    border: 1px solid red;
-    padding: 18px;
-}
-
-.nav-list , .bottom-nav-icons{
-    border: 1px solid red;
-}
-
-.bottom-nav-icons{
-    width: 110px;
-}
-
-.bottom-nav-content-container h1{
-    font-size: 22px;
-    font-weight: bolder;
-    color: white;
-}
