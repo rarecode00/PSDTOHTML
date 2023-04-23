@@ -161,5 +161,32 @@ a{
 }
 
 .nav-list-icons{
+    margin-left: 30px;
+    margin-top: 2px;
+}
 
+.nav-list-icons a{
+    color: white;
+}
+
+.nav-list-icons a:first-child{
+    margin-top: 4px;
+    height: 32px;
+    width: 27px;
+}
+
+.nav-list-icons a:nth-child(2){
+    margin-left: 8px;
+    margin-top: 1px;
+    padding: 4px;
+    padding-left: 12px;
+    width: 30px;
+    height: 22px;
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+}
+
+.nav-list-icons a:last-child{
+    margin-top: 4px;
+    margin-left: 15px;
 }
