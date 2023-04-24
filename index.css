@@ -261,12 +261,20 @@ a{
 }
 
 .navbar-comment-container{
-    margin-top: 32px;
+    margin-top: 31px;
     font-size: 13px;
     border: 1px solid red;
     width: 250px;
+    margin-left: 30px;
 }
 
 .comment-image , .like-image{
     font-size: 15px;
+}
+
+.navbar-comment-container span{
+    margin-left: 2px;
+}
+
+.navbar-comment-container a:last-child{
 }
