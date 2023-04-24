@@ -223,3 +223,50 @@ a{
     margin-top:3px;
     margin-left: 30px;
 }
+
+.bottom-mid-content button{
+    margin-left: 318px;
+    margin-top: 29px;
+    padding: 11px;
+    width: 169px;
+    border-radius: 1.2rem;
+    font-size: 18px;
+    border: none;
+    background-color: #2f3f9f;
+    color: white;
+}
+
+.bottom-lower-content{
+    margin-top: 80px;
+}
+
+.bottom-lower-content img{
+    margin-left: 47px;
+}
+
+.bottom-lower-content p{
+    color: white;
+    font-weight: bolder;
+    font-size: 13px;
+}
+
+.bottom-lower-content a > p:nth-child(2){
+    margin-top: 13px;
+    margin-left: 24px;
+}
+
+.bottom-lower-content a > p:nth-child(3){
+    margin-top: 9px;
+    margin-left: 10px;
+}
+
+.navbar-comment-container{
+    margin-top: 32px;
+    font-size: 13px;
+    border: 1px solid red;
+    width: 250px;
+}
+
+.comment-image , .like-image{
+    font-size: 15px;
+}
