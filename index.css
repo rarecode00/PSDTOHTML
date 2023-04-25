@@ -305,5 +305,29 @@ header{
     font-size: 7px;
     padding: 20px;
     padding-left: 19px;
-    padding-top: 24px;
+    padding-top: 14px;
+}
+
+.sort-blog-container ul{
+    list-style: none;
+}
+
+.sort-blog-container ul > li{
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 30px;
+    padding-bottom: 6px;
+    border-radius: 1.2rem;
+    background-color: #f5f5f5;
+}
+
+
+.sort-blog-list li{
+    margin-left: 30px;
+    font-weight: bolder;
+}
+
+.sort-blog-list li:first-child{
+    border: 1px solid #99a3d8;
+    color: #99a3d8;
 }
