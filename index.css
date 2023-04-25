@@ -110,6 +110,10 @@ a{
 
 /* ----------------------- */
 
+header{
+    overflow-x: hidden;
+}
+
 .custom-bottom-nav {
     background-image: url(public/cover.png);
     background-repeat: no-repeat;
@@ -197,12 +201,12 @@ a{
 }
 
 .bottom-mid-content{
-    margin-top: 212px;
+    margin-top: 213px;
 }
 
 .bottom-mid-content h2{
     margin-left: 332px;
-    font-size: 21px;
+    font-size: 19px;
     color: white;
 }
 
@@ -226,11 +230,13 @@ a{
 
 .bottom-mid-content button{
     margin-left: 318px;
-    margin-top: 29px;
-    padding: 11px;
-    width: 169px;
+    margin-top: 31px;
+    padding: 12px;
+    padding-left: 25px;
+    padding-right: 41px;
     border-radius: 1.2rem;
-    font-size: 18px;
+    font-size: 16px;
+    font-weight: 700;
     border: none;
     background-color: #2f3f9f;
     color: white;
@@ -241,7 +247,7 @@ a{
 }
 
 .bottom-lower-content img{
-    margin-left: 47px;
+    margin-left: 43px;
 }
 
 .bottom-lower-content p{
@@ -251,30 +257,32 @@ a{
 }
 
 .bottom-lower-content a > p:nth-child(2){
-    margin-top: 13px;
+    margin-top: 11px;
     margin-left: 24px;
 }
 
 .bottom-lower-content a > p:nth-child(3){
+    font-weight: 500;
+    color: #6e6e6e;
     margin-top: 9px;
     margin-left: 10px;
 }
 
 .navbar-comment-container{
-    margin-top: 31px;
     font-size: 13px;
-    border: 1px solid red;
-    width: 250px;
-    margin-left: 30px;
+    margin-top: 2px;    
 }
 
 .comment-image , .like-image{
-    font-size: 15px;
+    font-size: 16px;
+    color: white;
 }
 
 .navbar-comment-container span{
-    margin-left: 2px;
+    font-size: 12px;
+    color: white;
+    font-weight: bolder;
 }
 
-.navbar-comment-container a:last-child{
+.header-like{
 }
