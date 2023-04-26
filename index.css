@@ -377,12 +377,17 @@ header{
     margin-top: 30px;
 }
 
+.body-content-container{
+    background-color: #fafafa;
+}
+
 .main-blog-img{
     background-image: url(/public/main-blog.png);
     background-repeat: no-repeat;
     width: 824px;
     height: 421px;
     flex-direction: column;
+    margin-left: 1px;
 }
 
 .main-blog-img > i{
@@ -392,16 +397,28 @@ header{
     margin-bottom: 140px;
 }
 
-.img-content{
-    border: 1px solid red;
-}
-
 .img-content p{
     color: white;
     font-size: 12px;
     width: 100%;
+    background-color: white;
 }
 
+.main-blog-content{
+    padding: 13px;
+    padding-left: 21px;
+    border-bottom: 1px solid #dfdfdf;
+}
+
+.main-blog-content h1{
+    font-size: 18px;
+}
+
+.main-blog-content p{
+    margin-top: 5px;
+    width: 800px;
+    line-height: 27px;
+}
 
 /*------------------------------------------------  */
 
