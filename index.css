@@ -420,6 +420,34 @@ header{
     line-height: 27px;
 }
 
+.main-blog-details{
+    flex-direction: column;
+    padding: 6px;
+    padding-left: 10px;
+}
+
+.main-blog-details p{
+    font-size: 12px;
+    padding-top: 8px;
+}
+
+.main-blog{
+    border-bottom: 1px solid #dfdfdf;
+    width: 819px;
+}
+
+.main-blog-user{
+    padding: 19px;
+    padding-left: 20px;
+    padding-bottom: 21px;
+}
+
+.main-blog-user i{
+    align-self: center;
+    margin-left: 605px;
+    font-size: 20px;
+}
+
 /*------------------------------------------------  */
 
 .right-body-container{
