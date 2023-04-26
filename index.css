@@ -140,7 +140,7 @@ header{
 }
 
 .all-nav-list{
-    margin-left: 111px;
+    margin-left: 109px;
 }
 
 .active-bar{
@@ -182,7 +182,7 @@ header{
 
 
 .nav-list-icons{
-    margin-left: 15px;
+    margin-left: 9px;
     margin-top: 2px;
 }
 
@@ -213,24 +213,23 @@ header{
 }
 
 .bottom-mid-content{
-    margin-top: 213px;
+    margin-top: 212px;
 }
 
 .bottom-mid-content h2{
-    margin-left: 332px;
-    letter-spacing: 1px;
-    font-size: 19px;
+    margin-left: 331px;
+    font-size: 21px;
     color: white;
 }
 
 .bottom-mid-content h1{
     width: 100%;
-    letter-spacing: 2.5px;
+    letter-spacing: 1.8px;
     font-family: 'Montserrat', sans-serif;
     font-size: 41px;
     color: white;
-    margin-top: 15px;
-    height: 36px;
+    margin-top: 13px;
+    height: 38px;
 }
 
 .content-second{
@@ -242,10 +241,10 @@ header{
 
 .bottom-mid-content button{
     margin-left: 317px;
-    margin-top: 45px;
+    margin-top: 43px;
     padding: 12px;
     padding-left: 25px;
-    padding-right: 29px;
+    padding-right: 27px;
     border-radius: 1.2rem;
     font-size: 16px;
     font-weight: 700;
@@ -306,7 +305,13 @@ header{
 }
 
 .like-image{
-    margin-left: 30px;
+    margin-left: 28px;
+}
+
+.header-like span{
+    margin-top: 2px;
+    font-size: 13px;
+    margin-left: 2px;
 }
 
 /* --------------------------------------------------------- */
