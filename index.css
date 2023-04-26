@@ -136,10 +136,11 @@ header{
     font-family: 'Montserrat', sans-serif;
     color: white;
     margin-top: 1px;
+    letter-spacing: 2px;
 }
 
 .all-nav-list{
-    margin-left: 121px;
+    margin-left: 111px;
 }
 
 .active-bar{
