@@ -528,11 +528,6 @@ header{
     font-size: 48px;
     color: white;
 }
-
-/* .img-txt{
-    margin-top: 27px;
-} */
-
 .blog-caption{
     color: white;
     font-size: 12px;
@@ -625,8 +620,67 @@ header{
     background-image: url('/public/hcard3-image.png');
 }
 
+.hr2-blog-img1{
+    background-image: url('/public/bottom-image-1.png');
+}
 
+.blog-img-props2{
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 303px;
+}
 
+.hr-blog1{
+    border: 1px solid red;
+    width: 400px;
+    margin-top: 22px;
+}
+
+.hr-blog-content1{
+    border-bottom: 1px solid #dfdfdf;
+    width: 240px;
+    padding-top: 12px;
+    padding-left: 20px ;
+    background-color: white;
+    width: 380px;
+    padding-bottom: 7px;
+ }
+ 
+ .hr-blog-content1 h5{
+     line-height: 1.4rem;
+     letter-spacing: 1px;
+ }
+ 
+ .hr-blog-content1 p{
+     font-size: 14px;
+     margin-top: 11px;
+     line-height: 20px;
+     margin-bottom: 28px;
+ }
+
+ .hr-blog-user1{
+    justify-content: space-between;
+    width: 225px;
+    background-color: white;
+    padding: 15px;
+    padding-left: 20px;
+    width: 365px;
+}
+
+.hr-user-content{
+    margin-left: 8px;
+    margin-top: 5px;
+}
+
+.hr-user-content p{
+    font-size: 12px;
+    margin-top: 8px;
+    margin-left: 1px;
+}
+
+.hr-blog-user1 i{
+    font-size: 21px;
+}
 /*------------------------------------------------  */
 
 .right-body-container{
