@@ -569,6 +569,63 @@ header{
     color: white;
 }
 
+.hr-blog-content{
+   border-bottom: 1px solid #dfdfdf;
+   width: 240px;
+   padding-top: 12px;
+   padding-left: 20px ;
+   background-color: white;
+}
+
+.hr-blog-content h5{
+    line-height: 1.4rem;
+    letter-spacing: 1px;
+}
+
+.hr-blog-content p{
+    font-size: 14px;
+    margin-top: 11px;
+    line-height: 20px;
+    margin-bottom: 28px;
+}
+
+.hr-blog-user{
+    justify-content: space-between;
+    width: 225px;
+    background-color: white;
+    padding: 15px;
+    padding-left: 20px;
+}
+
+.hr-blog-user a h5{
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.hr-blog-user a p{
+    margin-left: 10px;
+    font-size: 13px;
+    margin-top: 7px;
+}
+
+.hr-blog-user i{
+    font-size: 21px;
+    margin-top: 18px;
+}
+
+.hr-blog-img1{
+    background-image: url('/public/hcard1-image1.png');
+}
+
+.hr-blog-img2{
+    background-image: url('/public/hcard2-image.png');
+}
+
+.hr-blog-img3{
+    background-image: url('/public/hcard3-image.png');
+}
+
+
 
 /*------------------------------------------------  */
 
