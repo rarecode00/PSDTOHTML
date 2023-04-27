@@ -631,10 +631,10 @@ header{
 }
 
 .hr-blog1{
-    border: 1px solid red;
     width: 400px;
-    margin-top: 22px;
+    margin-top: 23px;
 }
+
 
 .hr-blog-content1{
     border-bottom: 1px solid #dfdfdf;
@@ -646,14 +646,14 @@ header{
     padding-bottom: 7px;
  }
  
- .hr-blog-content1 h5{
-     line-height: 1.4rem;
-     letter-spacing: 1px;
+ .hr-blog-content1 h4{
+     line-height: 1.3rem;
+     letter-spacing: 1.7px;
  }
  
  .hr-blog-content1 p{
-     font-size: 14px;
-     margin-top: 11px;
+     font-size: 15px;
+     margin-top: 10px;
      line-height: 20px;
      margin-bottom: 28px;
  }
@@ -681,6 +681,21 @@ header{
 .hr-blog-user1 i{
     font-size: 21px;
 }
+
+.img-txt1{
+    margin-top: 243px;
+    margin-left: 19px;
+}
+
+.hr-img-icons{
+    margin-left: 212px;
+    margin-top: 24px;
+}
+
+.hr2-blog-img2{
+    background-image: url(/public/bottom-image-2.png);
+}
+
 /*------------------------------------------------  */
 
 .right-body-container{
