@@ -40,6 +40,10 @@ a {
     align-items: center;
 }
 
+.d-fd-col{
+    flex-direction: column;
+}
+
 /* ------------ */
 
 .custom-container {
@@ -378,7 +382,7 @@ header{
 }
 
 .body-content-container{
-    background-color: #fafafa;
+    background-color: #f0f0f0;
 }
 
 .main-blog-img{
@@ -434,6 +438,7 @@ header{
 .main-blog{
     border-bottom: 1px solid #dfdfdf;
     width: 819px;
+    background-color: white;
 }
 
 .main-blog-user{
@@ -447,6 +452,79 @@ header{
     margin-left: 605px;
     font-size: 20px;
 }
+/* Verticals blogs */
+
+.vertical-blogs{
+    flex-direction: column;
+}
+
+.card-blog{
+    margin-top: 20px;
+}
+
+.card-blog-img{
+    background-image: url('/public/vertical-card1.png');
+    background-repeat: no-repeat;
+    width: 57%;
+    height: 166px;
+}
+
+.card-blog-content{
+    border-bottom:1px solid #dfdfdf;
+    background-color: white;
+}
+
+.card-blog-content h4{
+    padding-left: 18px;
+    padding-top: 10px;
+}
+
+.card-blog-content > p{
+    padding-top: 9px;
+    padding-left: 17px;
+    font-size: 15px;
+    border-bottom: 1px solid #dfdfdf;
+    padding-bottom: 20px;
+}
+
+.card-blog-user{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.card-blog-user a > div{
+    margin-left: 12px;
+    margin-top: 6px;
+}
+
+.card-blog-user a > div > p{
+    font-size: 12px;
+    margin-top: 7px;
+}
+
+.card-blog-user > i{
+    margin-left: 358px;
+    margin-top: 17px;
+    font-size: 20px;
+}
+
+.card-image-play{
+    margin-top: 60px;
+    margin-left: 108px;
+    font-size: 48px;
+    color: white;
+}
+
+.img-txt{
+    margin-top: 27px;
+}
+
+.blog-caption{
+    color: white;
+    font-size: 12px;
+}
+
+
 
 /*------------------------------------------------  */
 
