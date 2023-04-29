@@ -74,7 +74,20 @@ a{
     text-decoration: none;
 }
 
+.vertical-line-divider{
+    height: 21px;
+    background-color: red;
+    width: 1px;
+}
 
+.custom-right-icons i{
+    font-size: 19px;
+}
+
+.custom-right-icons span{
+    font-size: 14px;
+    margin-left: 6px;
+}
 
 /* ----------------------- */
 
@@ -98,9 +111,9 @@ header{
 .bottom-nav-list h1{
     font-size: 23px;
     font-family: 'Montserrat', bold;
-    color: white;
+    color: #e2e2e2;
     margin-top: 1px;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
 }
 
 .all-nav-list{
@@ -120,7 +133,7 @@ header{
 
 .all-nav-list a{
     display: flex;
-    color: white;
+    color: #e2e2e2;
     font-size: .9rem;
     letter-spacing: 1.3px;
     padding: 4px;
@@ -137,7 +150,7 @@ header{
 }
 
 .all-nav-list a > i{
-    color: white;
+    color: #e2e2e2;
     margin-top: 3px;
     font-size:20px;
     width: 14px;
@@ -151,7 +164,7 @@ header{
 }
 
 .nav-list-icons a{
-    color: white;
+    color: #e2e2e2;
 }
 
 .nav-list-icons a:first-child{
@@ -167,8 +180,8 @@ header{
     padding-left: 12px;
     width: 30px;
     height: 22px;
-    border-right: 1px solid white;
-    border-left: 1px solid white;
+    border-right: 1px solid #e2e2e2;
+    border-left: 1px solid #e2e2e2;
 }
 
 .nav-list-icons a:last-child{
@@ -193,9 +206,9 @@ header{
     font-family: 'Montserrat', sans-serif;
     font-weight: 800;
     font-size: 43px;
-    color: white;
+    color: #e2e2e2;
     margin-top: 12px;
-    height: 39px;
+    height: 39.1px;
 }
 
 .bottom-mid-content h1:nth-child(2){
@@ -203,7 +216,7 @@ header{
 }
 
 .content-second{
-    color: white;
+    color: #e2e2e2;
     font-family: 'Montserrat', sans-serif;
     font-size: 40px;
     margin-left: 36px;
@@ -220,35 +233,34 @@ header{
     font-weight: 700;
     border: none;
     background-color: #2f3f9f;
-    color: white;
+    color: #e2e2e2;
     letter-spacing:.5px;
 }
 
 .bottom-lower-content{
-    margin-top: 80px;
+    margin-top: 79px;
 }
 
 .bottom-lower-content img{
-    margin-left: 36px;
+    margin-left: 40px;
 }
 
-.bottom-lower-content p{
-    color: white;
-    font-weight: bolder;
-    font-size: 13px;
-}
 
-.bottom-lower-content a > p:nth-child(2){
-    margin-top: 11px;
-    margin-left: 18px;
+.header-author-name{
+    margin-top: 15px;
+    margin-left: 20px;
     letter-spacing: 1px;
+    color: #e2e2e2;
+    font-weight: bolder;
+    font-size: .9rem;
 }
 
-.bottom-lower-content a > p:nth-child(3){
+.header-author-date{
     font-weight: 500;
     color: #6e6e6e;
-    margin-top: 9px;
-    margin-left: 10px;
+    margin-top: 6px;
+    margin-left: 5px;
+    font-size: .9rem;
 }
 
 .navbar-comment-container{
@@ -265,10 +277,10 @@ header{
 }
 
 .navbar-comment-container span{
-    margin-top: 2px;
+    margin-top: 2.6px;
     margin-left: 5px;
     font-size: 12px;
-    color: white;
+    color: #e2e2e2;
     font-weight: bolder;
     letter-spacing: .4px;
 }
@@ -278,9 +290,9 @@ header{
 }
 
 .header-like span{
-    margin-top: 2px;
-    font-size: 13px;
-    margin-left: 2px;
+    margin-top: 2.6px;
+    font-size: 12px;
+    margin-left: 2.6px;
 }
 
 /* --------------------------------------------------------- */
