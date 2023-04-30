@@ -226,14 +226,15 @@ header{
     font-weight: 800;
     font-size: 43px;
     color: #e2e2e2;
-    margin-top: 12px;
+    margin-top: 13px;
     text-align: center;
+    line-height: 51px;
 }
 
 
 .bottom-mid-content button{
     margin-left: 515px;
-    margin-top: 29px;
+    margin-top: 30px;
     padding: 12px;
     padding-left: 25px;
     padding-right: 29px;
@@ -247,21 +248,20 @@ header{
 }
 
 .bottom-lower-content{
-    margin-top: 79px;
+    margin-top: 80px;
 }
 
 .bottom-lower-content img{
     margin-left: 40px;
-    margin-bottom: 13px;
+    margin-bottom: 12px;
 }
 
 .bottom-lower-content a:last-child{
-    margin-top: 3px;
+    margin-top: 4px;
 }
 
 
 .header-author-name{
-    margin-top: 15px;
     margin-left: 20px;
     letter-spacing: .5px;
     color: #e2e2e2;
@@ -272,14 +272,14 @@ header{
 .header-author-date{
     font-weight: 500;
     color: #6e6e6e;
-    margin-top: 10px;
+    /* margin-top: 11px; */
     margin-left: 5px;
     font-size: .9rem;
 }
 
 .navbar-comment-container{
     font-size: 13px;
-    margin-top: 31px;   
+    margin-top: 30px;   
     width: 250px;
     margin-left: 10px;
 }
@@ -291,20 +291,21 @@ header{
 }
 
 .navbar-comment-container span{
-    margin-top: 0.095rem;
+    /* margin-top: 0.08rem; */
+    margin-top: 1.2px;
     margin-left: 5px;
     font-size: 13px;
     color: #e2e2e2;
     font-weight: bolder;
-    letter-spacing: .4px;
+    /* word-spacing: 0px; */
 }
 
 .like-image{
-    margin-left: 20px;
+    margin-left: 25px;
 }
 
 .header-like span{
-    margin-top: 0.095rem;
+    margin-top: 1.2px;
     font-size: 13px;
     margin-left: 2.6px;
 }
@@ -326,42 +327,38 @@ header{
     border-bottom: 1px solid #dfdfdf;
 }
 
-.sort-blog-container ul{
-    list-style: none;
-}
 
-.sort-blog-container ul > li{
-    padding: 10px;
-    padding-left: 25px;
-    padding-right: 27px;
-    padding-bottom: 6px;
+.sort-blog-container div > a{
+    padding: 9px 22px 6px 25px;
     border-radius: 1.2rem;
     background-color: #f0f0f0;
 }
 
 
-.sort-blog-list li{
+.sort-blog-list a{
     font-weight: bolder;
+    font-size: 12px;
 }
 
 
-.sort-blog-list li:first-child{
-    margin-left: 27px;
+.sort-blog-list a:first-child{
+    margin-left: 20px;
     border: 1px solid #99a3d8;
-    color: #99a3d8;
-    margin-right: 15px;
+    color: #73716f;
+    margin-right: 14px;
     padding-right: 31px;
 }
 
-.sort-blog-list li:not(:first-child){
+.sort-blog-list a:not(:first-child){
     margin-right: 17px;
     font-size: 12px;
     padding-top: 9px;
+    padding-left: 27px;
 }
 
 .sort-blog-container h2{
     margin-top: 10px;
-    font-size: 11px;
+    font-size: 12px;
     margin-left: 1px;
 }
 
