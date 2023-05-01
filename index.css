@@ -271,8 +271,8 @@ header{
 
 
 .bottom-lower-content img{
-    margin-left: 38px;
-    margin-bottom: 12px;
+    margin-left: 36px;
+    margin-bottom: 14px;
 }
 
 .bottom-lower-content a:last-child{
@@ -281,8 +281,8 @@ header{
 
 
 .header-author-name{
-    margin-left: 20px;
-    letter-spacing: .5px;
+    margin-left: 16.2px;
+    letter-spacing: .2px;
     color: #e2e2e2;
     font-weight: bolder;
     font-size: .9rem;
@@ -291,9 +291,8 @@ header{
 .header-author-date{
     font-weight: 500;
     color: #6e6e6e;
-    /* margin-top: 11px; */
-    margin-left: 5px;
-    font-size: .9rem;
+    font-size: .86rem;
+    letter-spacing: .1px;
 }
 
 .navbar-comment-container{
@@ -305,26 +304,25 @@ header{
 
 .comment-image , .like-image{
     font-size: 18px;
-    color: white;
-    /* margin-left: 12px; */
+    color: #a0a0a0;
 }
 
 .navbar-comment-container span{
-    margin-top: 1.2px;
+    margin-top: .3px;
     margin-left: 5px;
     font-size: 13px;
-    color: #e2e2e2;
-    font-weight: bolder;
+    color: #a0a0a0;
+    font-weight: 400;
 }
 
 .like-image{
-    margin-left: 26px;
+    margin-left: 28px;
 }
 
 .header-like span{
     /* margin-top: .px; */
     font-size: 13.1px;
-    margin-left: 2px;
+    margin-left: 3.2px;
 }
 
 /* --------------------------------------------------------- */
@@ -484,7 +482,7 @@ header{
 
 .card-img-props{
     background-repeat: no-repeat;
-    width: 32%;
+    width: 31.6%;
     height: 166px;
 }
 
@@ -528,14 +526,18 @@ header{
     width: 520px;
 }
 
-.card-blog-user a > div{
+.card-blog-user div > div{
     margin-left: 9px;
     margin-top: 5px;
     font-size: 17.9px;
     color: #191919;
 }
 
-.card-blog-user a > div > p{
+.card-blog-user h5{
+    color: #191919;
+}
+
+.card-blog-user div > div > a > p{
     font-size: 13px;
     margin-top: 7px;
     color: #212121;
@@ -608,6 +610,10 @@ header{
     margin-top: 20px;
 }
 
+.horizontal-blog1:not(:last-child){
+    margin-right: 19px;
+}
+
 .hr-image-play{
     margin-top: 56px;
     margin-left: 108px;
@@ -619,46 +625,59 @@ header{
 .hr-blog-content{
    border-bottom: 1px solid #dfdfdf;
    width: 240px;
-   padding-top: 12px;
+   padding-top: 11px;
    padding-left: 20px ;
    background-color: white;
 }
 
 .hr-blog-content h5{
-    line-height: 1.4rem;
+    line-height: 23.2px;
     letter-spacing: 1px;
 }
 
 .hr-blog-content p{
     font-size: 14px;
-    margin-top: 11px;
-    line-height: 20px;
-    margin-bottom: 28px;
+    margin-top: 8.5px;
+    letter-spacing: .3px;
+    line-height: 20.6px;
+    margin-bottom: 26px;
 }
-
 .hr-blog-user{
-    justify-content: space-between;
-    width: 225px;
     background-color: white;
     padding: 15px;
-    padding-left: 20px;
+    padding: 15px 15px 15px 20px;
 }
 
-.hr-blog-user a h5{
-    margin-top: 5px;
+.hr-dot{
+    align-self: center;
+    /* justify-self: right; */
+    margin-top: 15px;
+    font-size: 23px;
+}
+
+/* .hr-blog-user{
+    justify-content: space-around;
+    background-color: white;
+    padding: 15px 0px 15px 2px;
+}
+
+.hr-blog-user h5{
+    margin-top: 4px;
+    font-size: 16px;
     margin-left: 10px;
 }
 
-.hr-blog-user a p{
+.hr-blog-user p{
     margin-left: 10px;
     font-size: 13px;
-    margin-top: 7px;
+    margin-top: 5px;
 }
 
 .hr-blog-user i{
-    font-size: 21px;
-    margin-top: 18px;
-}
+    font-size: 23px;
+    margin-top: 20px;
+    align-self: center;
+} */
 
 .hr-blog-img1{
     background-image: url('/public/hcard1-image1.png');
@@ -731,7 +750,29 @@ header{
 }
 
 .hr-blog-user1 i{
-    font-size: 21px;
+    font-size: 23px;
+}
+
+.hr-author-details{
+    padding: 3px;
+}
+
+.hr-author-name{
+    font-size: 14.7px;
+    margin-top: 2px;
+    margin-left: 8px;
+    font-weight: 600;
+}
+
+.hr-author-name a{
+    color: black;
+}
+
+.hr-author-date{
+    font-size: 12.4px;
+    margin-top: 7px;
+    margin-left: 8px;
+    letter-spacing: .5px;
 }
 
 .img-txt1{
