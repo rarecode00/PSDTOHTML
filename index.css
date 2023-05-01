@@ -444,14 +444,18 @@ header{
 
 .main-blog-details span{
     font-size: 12px;
-    padding-top: 8px;
 }
 
 .main-blog-details h5{
     color: #191919;
-    margin-top: 1px;
+    /* margin-top: 1px; */
+    margin-top: .2px;
     margin-bottom: 2px;
     letter-spacing: .8px;
+}
+
+.main-blog-details span{
+    margin-top: 12px;
 }
 
 .main-blog{
@@ -476,14 +480,22 @@ header{
     flex-direction: column;
 }
 
-.card-blog{
+.card-blog:not(:last-child){
     margin-top: 20px;
+    /* margin-bottom: 1px; */
 }
+
+.card-blog:last-child{
+    margin-top: 19px;
+    margin-bottom: 2px;
+}
+
+
 
 .card-img-props{
     background-repeat: no-repeat;
     width: 31.6%;
-    height: 166px;
+    padding-bottom: 16.7px;
 }
 
 .card-blog-img1{
@@ -527,7 +539,7 @@ header{
 }
 
 .card-blog-user div > div{
-    margin-left: 9px;
+    margin-left: 8px;
     margin-top: 5px;
     font-size: 17.9px;
     color: #191919;
@@ -655,6 +667,44 @@ header{
     font-size: 23px;
 }
 
+.img-txt{
+    color:white;
+    display: flex;
+}
+
+.blog-caption{
+    font-size: 12px;
+    margin-top: 25.2px;
+    font-weight: 500;
+}
+
+.card-img-icons{
+    margin-top: 24px;
+}
+
+.img-txt a{
+    color: #e2e2e2;
+}
+
+.hr-img-icon1{
+    font-size: 18px;
+}
+
+.card-lke,.card-cmnt{
+    margin-left: 20px;
+}
+
+.activity-cnt1{
+    font-size: 13px;
+    font-weight: 500;
+    margin-left: 4px;
+}
+
+/* 
+.card-blog{
+    border: 1px solid red;
+} */
+
 /* .hr-blog-user{
     justify-content: space-around;
     background-color: white;
@@ -703,7 +753,7 @@ header{
 
 .hr-blog1{
     width: 400px;
-    margin-top: 23px;
+    margin-top: 19px;
 }
 
 
@@ -719,14 +769,16 @@ header{
  
  .hr-blog-content1 h4{
      line-height: 1.3rem;
-     letter-spacing: 1.7px;
+     letter-spacing: .7px;
+     margin-left:1px;
+     font-size: 18px;
  }
  
  .hr-blog-content1 p{
-     font-size: 15px;
-     margin-top: 10px;
-     line-height: 20px;
-     margin-bottom: 28px;
+     font-size: 17px;
+     margin-top: 7px;
+     line-height: 26.2px;
+     margin-bottom: 6px;
  }
 
  .hr-blog-user1{
