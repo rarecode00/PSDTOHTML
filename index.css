@@ -756,6 +756,10 @@ header{
     margin-top: 19px;
 }
 
+.hr-blog1:last-child{
+    margin-left: 21px;
+}
+
 
 .hr-blog-content1{
     border-bottom: 1px solid #dfdfdf;
@@ -786,6 +790,7 @@ header{
     width: 225px;
     background-color: white;
     padding: 15px;
+    padding-top: 14px;
     padding-left: 20px;
     width: 365px;
 }
@@ -795,14 +800,21 @@ header{
     margin-top: 5px;
 }
 
-.hr-user-content p{
-    font-size: 12px;
-    margin-top: 8px;
+.hr-user-content span{
+    font-size: 12.4px;
     margin-left: 1px;
 }
 
+.hr-user-content h5{
+    font-size: 14.7px;
+    margin-top: 1px;
+    margin-left: 2px;
+    font-weight: 600;
+    margin-bottom: 3px;
+}
+
 .hr-blog-user1 i{
-    font-size: 23px;
+    font-size: 22px;
 }
 
 .hr-author-details{
@@ -839,6 +851,22 @@ header{
 
 .hr2-blog-img2{
     background-image: url(/public/bottom-image-2.png);
+}
+
+.img-txt2{
+    margin-top: 243px;
+}
+
+.img-txt2 .blog-caption{
+    padding-top: 1px;
+}
+
+.card-img-align{
+    margin-left: 153px;
+}
+
+.card-cmnt1{
+    margin-top: 1px;
 }
 
 /*------------------------------------------------  */
