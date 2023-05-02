@@ -952,8 +952,119 @@ header{
 /*------------------------------------------------  */
 
 .right-body-container{
-    width: 450px;
-    height: 100px;
-    background-color: red;
+    background-color: white;
     margin-left: 40px;
+}
+
+.custom-search-bar{
+    margin-top: 25px;
+    margin-left: 38px;
+}
+
+.custom-search-bar input{
+    padding: 13px 100px 13px 13px;
+    border-radius: 1.2rem;
+    background-color: #f0f0f0;
+    border: none;
+}
+
+
+input::placeholder{
+    font-size: 16.2px;
+    padding-left: 7px;
+}
+
+.r-container{
+    padding: 25px 0px 24px 30px;
+    background-color: white;
+}
+
+.r-heading{
+    font-size: 19px;
+    font-weight: 600;
+    color: #3f51b5;
+    margin-left: 7.2px;
+    border-bottom: 1px solid #2962ff;
+    padding-bottom: 5px;
+    padding-right: 144px;
+    margin-bottom: 12px;
+}
+
+.r-category-item span a{
+    font-family: 'Open Sans';
+}
+.r-category-item{
+    font-size: 14.7px;
+    margin: 1px 0px 0px 6.7px;
+    padding-bottom: 10px;
+    color: #000000;
+    font-weight: 400;
+    border-bottom: 1px solid #b9b9b9;
+}
+
+.r-category-item:not(:first-child) span{
+    margin-top: 7.7px;
+}
+
+.r-category-item:first-child span{
+    margin-top: 1px;
+}
+
+.r-category-item:last-child{
+    border: none;
+}
+
+.r-category-item a{
+    color: #000000;
+}
+
+.r-subscribe{
+    margin-top: 29px;
+}
+
+.r-subscribe .r-heading{
+    font-size: 18px;
+    padding-bottom: 6px;
+}
+
+.subscribe-container{
+    padding-left: 6px;
+}
+
+.subscribe-container label{
+    margin-bottom: 11px;
+}
+
+.subscribe-container input{
+    padding-bottom: 24px;
+    margin-left: 1px;
+}
+
+.email-container{
+    margin-top: 14px;
+}
+
+.subscribe-container input::placeholder{
+    font-family: 'Open Sans';
+    position: relative;
+    top: 12.6px;
+    left: 8.4px;
+}
+
+div.subscribe-button{
+    margin-top: 10px;
+    margin-left: 2px;
+}
+
+button.subscribe-button{
+    padding-bottom: 12px;
+    padding-top: 11.2px;
+    font-weight: 600;
+    padding-left: 89px;
+    padding-right: 78px;
+    font-size: 17px;
+    background-color: #3f51b5;
+    border-radius: 5px;
+    color: white;
+    border: none;
 }
