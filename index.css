@@ -478,6 +478,49 @@ header{
     letter-spacing: .8px;
 }
 
+.main-blog-play-icon{
+    color: white;
+    margin-top: 181px;
+}
+
+.main-blog-play-icon span{
+    font-size: 59px;
+    align-self: center;
+    margin-left: 382px;
+}
+
+.main-blog-txt{
+    color: white;
+    margin-top: 142px;
+}
+
+.main-blog-txt .v-card-blog-caption{
+    margin-right: 555px;
+    margin-top: 3.1px;
+    font-size: 12.2px;
+    /* color: #000; */
+    font-weight: 600;
+    margin-left: 19px;
+}
+
+.container-comment{
+    margin-left: 76px;
+    margin-top: 1px;
+}
+
+.container-comment span{
+     margin-right: 19px;
+}
+
+.main-blog-txt i{
+    font-size: 18px;
+    margin-right: 5px;
+}
+
+.main-blog-txt span{
+    font-size: 15px;
+}
+
 .main-blog{
     border-bottom: 1px solid #dfdfdf;
     background-color: white;
@@ -582,7 +625,7 @@ header{
     color: #212121;
 }
 
-.card-blog-user > i{
+.card-blog-user > a{
     align-self: center;
     font-size: 21px;
     margin-top: 2px;
