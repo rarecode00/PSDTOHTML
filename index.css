@@ -430,6 +430,8 @@ header{
     margin-bottom: 140px;
 }
 
+
+
 .img-content p{
     color: white;
     font-size: 12px;
@@ -437,7 +439,7 @@ header{
 }
 
 .main-blog-content{
-    padding: 13px 0px 13px 21px;
+    padding: 13px 0px 13px 20px;
     border-bottom: 1px solid #dfdfdf;
 }
 
@@ -454,6 +456,11 @@ header{
     width: 800px;
 }
 
+.main-blog-f{
+    margin-top: 0.6px;
+    font-size: 17.6px;
+}
+
 .main-blog-details{
     padding: 6px;
     padding-left: 9px;
@@ -465,14 +472,10 @@ header{
 
 .main-blog-details h5{
     color: #191919;
-    /* margin-top: 1px; */
-    margin-top: .2px;
+    font-size: 14.1px;
+    margin-top: 2px;
     margin-bottom: 2px;
     letter-spacing: .8px;
-}
-
-.main-blog-details span{
-    margin-top: 12px;
 }
 
 .main-blog{
@@ -481,11 +484,17 @@ header{
 }
 
 .main-blog-user{
-    padding: 20px 19px 20px 20px;
+    padding: 18.5px 19px 19px 20px;
+}
+
+.main-blog-user img{
+    margin-top: 2px;
+    margin-left: 2px;
 }
 
 .dot-icon{
     align-self: center;
+    justify-self: center;
     font-size: 21px;
 }
 
@@ -510,8 +519,8 @@ header{
 
 .card-img-props{
     background-repeat: no-repeat;
-    width: 31.6%;
     padding-bottom: 16.7px;
+    padding-right: 17px;
 }
 
 .card-blog-img1{
@@ -586,6 +595,10 @@ header{
     color: white;
 }
 
+.last-card-blog{
+    margin-top: .2px;
+}
+
 .vertical-blog-txt-container{
     color: white;
     margin-top: 20px;
@@ -632,9 +645,9 @@ header{
 
 .blog-img-props{
     background-repeat: no-repeat;
-    width: 262px;
-    height: 160px;
+    padding-bottom: 12px;
 }
+
 
 .horizontal-blog1{
     margin-top: 20px;
@@ -645,9 +658,9 @@ header{
 }
 
 .hr-image-play{
-    margin-top: 56px;
-    margin-left: 108px;
-    margin-bottom: 3.1px;
+    margin-top: 55px;
+    margin-left: 107px;
+    margin-bottom: 4px;
     font-size: 48px;
     color: white;
 }
@@ -655,32 +668,31 @@ header{
 .hr-blog-content{
    border-bottom: 1px solid #dfdfdf;
    width: 240px;
-   padding-top: 11px;
-   padding-left: 20px ;
+   padding-top: 10.2px;
+   padding-left: 19.2px ;
    background-color: white;
+   margin-left: 2px;
 }
 
 .hr-blog-content h5{
-    line-height: 23.2px;
-    letter-spacing: 1px;
+    line-height: 23.8px;
+    letter-spacing: .8px;
 }
 
 .hr-blog-content p{
     font-size: 14px;
-    margin-top: 8.5px;
-    letter-spacing: .3px;
+    margin-top: 8px;
     line-height: 20.6px;
     margin-bottom: 26px;
 }
 .hr-blog-user{
     background-color: white;
-    padding: 15px;
     padding: 15px 15px 15px 20px;
 }
 
+
 .hr-dot{
     align-self: center;
-    /* justify-self: right; */
     margin-top: 15px;
     font-size: 23px;
 }
@@ -705,7 +717,7 @@ header{
 }
 
 .hr-img-icon1{
-    font-size: 18px;
+    font-size: 17px;
 }
 
 .card-lke,.card-cmnt{
@@ -749,18 +761,23 @@ header{
 
 .hr-blog-img1{
     background-image: url('/public/hcard1-image1.png');
+    margin-left: 1px;
 }
 
 .hr-blog-img2{
     background-image: url('/public/hcard2-image.png');
+    margin-left: 2px;
 }
 
 .hr-blog-img3{
     background-image: url('/public/hcard3-image.png');
+    margin-left: 2px;
+
 }
 
 .hr2-blog-img1{
     background-image: url('/public/bottom-image-1.png');
+    margin-left: 1px;
 }
 
 .blog-img-props2{
@@ -799,6 +816,8 @@ header{
      line-height: 26.2px;
      margin-bottom: 6px;
  }
+
+
 
  .hr-blog-user1{
     justify-content: space-between;
@@ -864,6 +883,7 @@ header{
 
 .hr2-blog-img2{
     background-image: url(/public/bottom-image-2.png);
+    margin-left: 1px;
 }
 
 .img-txt2{
