@@ -1152,3 +1152,45 @@ button.subscribe-button {
 .subscribe-icons .dr{
     background-color: #ea4c89;
 }
+
+.post-heading{
+    font-size: 18px;
+    padding-right: 10px;
+    margin-top: 43.3px;
+    padding-bottom:6.2px;
+}
+
+.post-buttons {
+    display: flex;
+    margin-left: 7px;
+}
+
+.post-buttons button.active-buttons {
+    background-color: #3f51b5;
+    color: white;
+}
+
+.post-buttons button {
+    padding: 11px;
+    padding-top: 13px;
+    padding-left: 25px;
+    color: #3f51b5;
+    font-size: 12px;
+    margin-top: 6px;
+    border: 1.1302083333333333px solid #3f51b5;
+}
+
+.post-buttons button:first-child{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding-right: 22px;
+}
+
+.post-buttons button:last-child{
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding-left: 16px;
+    padding-right: 18px;
+}
+
+
