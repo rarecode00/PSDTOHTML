@@ -278,10 +278,11 @@ header {
 
 .bottom-mid-content {
     margin-top: 212px;
+    flex-direction:column;
 }
 
 .bottom-mid-content h2 {
-    margin-left: 528px;
+    /* margin-left: 528px; */
     font-weight: 500;
     font-size: 1.3121rem;
     color: #b9b9b9;
@@ -289,7 +290,8 @@ header {
 
 .bottom-mid-content div {
     width: 80%;
-    margin-left: 123px;
+    /* margin-left: 123px; */
+    /* text-align: center; */
 }
 
 .bottom-mid-content h1 {
@@ -305,7 +307,7 @@ header {
 
 
 .bottom-mid-content button {
-    margin-left: 515px;
+    /* margin-left: 515px; */
     margin-top: 30px;
     padding: 12px;
     padding-left: 25px;
