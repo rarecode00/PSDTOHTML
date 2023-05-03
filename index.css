@@ -102,47 +102,84 @@ a {
     text-decoration: none;
 }
 
-.custom-right-icons {
-    margin-left: 769px;
+/*  */
+.right-icons a {
+    color: #707070;
+    outline: none;
+    text-decoration: none;
 }
 
-.language-container .r-icons {
-    margin-left: 6.9px;
-    margin-right: 2px;
+
+.right-icons {
+    margin-top: 2px;
+    gap: 10px;
+    color: #6c6c6c;
+    display: flex;
 }
 
-.r-icons {
+.account-circle {
     font-size: 19px;
 }
 
-.r-txt {
-    font-size: 13px;
+.sign-in-icon {
+    margin-bottom: 1px;
+    margin-right: .2px;
+    gap: 4px;
+    display: flex;
+    line-height: 23px;
+}
+
+
+.SIGN-IN {
+    font-size: 12px;
     font-weight: 600;
-    margin-left: 3px;
 }
 
-.vertical-line-divider {
+
+.language-icon {
+    font-size: 19px;
+    margin-bottom: 2px;
+}
+
+.eng-icon {
+    margin-top: 3px;
+    font-size: 12px;
+}
+
+.expand-more-icon {
+    margin-left: 1px;
+    font-size: 20px;
+    margin-bottom: 1px;
+}
+
+.line {
+    border-left: 1px solid #6c6c6c;
     height: 20px;
-    width: 1px;
-    background-color: #6e6e6e;
-    margin-top: 4px;
+    margin-top: 3.2px;
+    display: flex;
 }
 
-.sign-container {
-    margin-right: 12px;
+.sign-in {
+    margin-top: 3px;
 }
 
-.custom-right-icons span {
-    margin-top: 2px;
+.language {
+    margin-top: 3px;
+    display: flex;
+    align-items: center;
 }
 
-.language-container {
-    margin-left: 3px;
+
+.language-icon {
+    margin-bottom: 2px;
+    display: flex;
 }
 
-.expand {
-    width: 0px;
+.expand-more {
+    font-size: 23px;
 }
+
+
 
 /* ----------------------- */
 
@@ -165,7 +202,6 @@ header {
 
 .bottom-nav-list h1 {
     font-size: 23px;
-    font-family: 'Montserrat', bold;
     color: #e2e2e2;
     margin-top: 1px;
     letter-spacing: 1px;
@@ -274,7 +310,7 @@ header {
     padding: 12px;
     padding-left: 25px;
     padding-right: 29px;
-    border-radius: 1.2rem;
+    border-radius: 1.2rem; 
     font-size: 17px;
     font-weight: 700;
     border: none;
@@ -412,10 +448,6 @@ header {
     background-color: #f0f0f0;
 }
 
-
-
-
-
 .main-blog-img {
     background-image: url(/public/main-blog.png);
     background-repeat: no-repeat;
@@ -430,8 +462,6 @@ header {
     margin-top: 179px;
     margin-bottom: 140px;
 }
-
-
 
 .img-content p {
     color: white;
@@ -451,9 +481,11 @@ header {
 }
 
 .main-blog-content p {
+    font-family: 'Open Sans';
     margin-top: 6px;
     line-height: 26px;
     word-spacing: .7px;
+    letter-spacing: .6px;
     width: 800px;
 }
 
@@ -499,7 +531,6 @@ header {
     margin-right: 555px;
     margin-top: 3.1px;
     font-size: 12.2px;
-    /* color: #000; */
     font-weight: 600;
     margin-left: 19px;
 }
@@ -551,7 +582,6 @@ header {
 
 .card-blog:not(:last-child) {
     margin-top: 20px;
-    /* margin-bottom: 1px; */
 }
 
 .card-blog:last-child {
@@ -591,11 +621,13 @@ header {
     letter-spacing: .4px;
 }
 
-.card-blog-content>p {
+.card-blog-content > p {
+    font-family: 'Open Sans';
     padding-top: 8px;
     padding-left: 19px;
     line-height: 21px;
-    font-size: 15px;
+    font-size: 14px;
+    letter-spacing: .6px;
     border-bottom: 1px solid #dfdfdf;
     padding-bottom: 14px;
 }
@@ -777,35 +809,6 @@ header {
     margin-left: 4px;
 }
 
-/* 
-.card-blog{
-    border: 1px solid red;
-} */
-
-/* .hr-blog-user{
-    justify-content: space-around;
-    background-color: white;
-    padding: 15px 0px 15px 2px;
-}
-
-.hr-blog-user h5{
-    margin-top: 4px;
-    font-size: 16px;
-    margin-left: 10px;
-}
-
-.hr-blog-user p{
-    margin-left: 10px;
-    font-size: 13px;
-    margin-top: 5px;
-}
-
-.hr-blog-user i{
-    font-size: 23px;
-    margin-top: 20px;
-    align-self: center;
-} */
-
 .hr-blog-img1 {
     background-image: url('/public/hcard1-image1.png');
     margin-left: 1px;
@@ -858,6 +861,7 @@ header {
 }
 
 .hr-blog-content1 p {
+    font-family: 'Open Sans';
     font-size: 17px;
     margin-top: 7px;
     line-height: 26.2px;
@@ -972,6 +976,20 @@ header {
     border: none;
 }
 
+.custom-search-bar {
+    position: relative;
+    display: inline-block;
+}
+
+.coloured-searchicon{
+    position: absolute;
+    left:85%;
+    top: 8%;
+    background-color: #ff4081;
+    color: white;
+    border-radius: 50%;
+    padding: 5px 6px 5px 5px;
+}
 
 input::placeholder {
     font-size: 16.2px;
@@ -1171,9 +1189,8 @@ button.subscribe-button {
 }
 
 .post-buttons button {
-    padding: 11px;
-    padding-top: 13px;
-    padding-left: 25px;
+    padding: 14px 11px 12px 25px;
+    background-color: white;
     color: #3f51b5;
     font-size: 12px;
     margin-top: 6px;
@@ -1189,7 +1206,7 @@ button.subscribe-button {
 .post-buttons button:last-child{
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
-    padding-left: 16px;
+    padding-left: 19px;
     padding-right: 18px;
 }
 
