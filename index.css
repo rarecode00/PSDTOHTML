@@ -555,6 +555,7 @@ header {
     padding: 14px 0px 14px 21px;
     border-bottom: 1px solid #dfdfdf;
     background-color: white;
+    width: 97.3%;
 }
 
 .main-blog-content h1 {
@@ -562,6 +563,10 @@ header {
     padding-right: 0px;
     margin-top: 0.3px;
     letter-spacing: .6px;
+}
+
+.main-blog-content a{
+    color: #000000;
 }
 
 .main-blog-content p {
@@ -623,7 +628,7 @@ header {
 }
 
 .main-blog-align{
-    left: 87.6%;
+    left: 87.1%;
 }
 
 .main-blog-txt .v-card-blog-caption {
@@ -653,7 +658,6 @@ header {
 
 .main-blog {
     border-bottom: 1px solid #dfdfdf;
-    max-width: 99.4%;
 }
 
 .main-blog-user {
@@ -667,14 +671,19 @@ header {
 }
 
 .lke-icon{
-    margin-left: 18px;
+    margin-left: 19px;
 }
 
 .dot-icon {
     align-self: center;
     justify-self: center;
-    font-size: 21px;
+    color: #000000;
+    margin-top: 2px;
 }
+
+/* .dot-icon span{
+    font:18px;
+} */
 
 
 
@@ -684,21 +693,25 @@ header {
     flex-direction: column;
 }
 
-.card-blog:not(:last-child) {
+.card-blog:first-child{
     margin-top: 20px;
 }
 
-.card-blog:last-child {
+.card-blog:not(:first-child){
     margin-top: 19px;
-    margin-bottom: 2px;
 }
 
+.card-blog:last-child{
+    margin-top: 18px;
+}
 
 
 .card-img-props {
     background-repeat: no-repeat;
-    padding-bottom: 16.7px;
-    padding-right: 17px;
+    height: 167px;
+    width: 55%;
+    position: relative;
+    left: 2px;
 }
 
 .card-blog-img1 {
@@ -716,6 +729,7 @@ header {
 .card-blog-content {
     border-bottom: 1px solid #dfdfdf;
     background-color: white;
+    height: 164px;
 }
 
 .card-blog-content h4 {
@@ -737,14 +751,14 @@ header {
 
 .card-blog-user {
     margin-top: 11px;
-    margin-left: 24px;
+    margin-left: 21px;
     justify-content: space-between;
 }
 
 
 
 .card-blog-user div>div {
-    margin-left: 8px;
+    margin-left: 10px;
     margin-top: 5px;
     font-size: 17.9px;
     color: #191919;
@@ -763,16 +777,8 @@ header {
 .card-blog-user>a {
     align-self: center;
     font-size: 21px;
-    margin-top: 2px;
+    margin-top: 5px;
 }
-
-.card-image-play {
-    margin-left: 108px;
-    margin-top: 60px;
-    font-size: 47px;
-    color: white;
-}
-
 .last-card-blog {
     margin-top: .2px;
 }
@@ -782,40 +788,59 @@ header {
     margin-top: 20px;
 }
 
-.v-card-blog-caption {
-    font-size: 12px;
-    margin-top: 3px;
-    margin-left: 20px;
+.card-play-icon{
+    position: absolute;
+    color: white;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -46%);
 }
 
-.cmnt-container {
-    margin-left: 58px;
+.card-blog-txt{
+    position: absolute;
+    top: 80%;
+    left: 7%;
+    color: #ffffff;
 }
 
-.cmnt-container i {
-    font-size: 17px;
+.card-blog-align{
+    top: 78.4%;
+    left: 59.7%;
 }
 
-.v-cmnts i {
-    margin-right: 6px;
+.card-blog-txt-align3{
+    top:79.7%;
 }
 
-.v-likes i {
-    margin-right: 4px;
+.likes__card{
+    margin-left: 50px;
 }
 
-.v-likes span {
-    font-size: 14.3px;
+.card-blog-txt{
+    font-size: 18.6px;
+    font-weight: 100;
+}
+
+.card-play-icon span{
+    font-size: 48px;
+}
+
+.card-icons-lkes{
+    font-size: 18px;
+    color: white;
+    margin-right: 5px;
+}
+
+.activity-cnt2{
+    font-size: 14px;
+    color: white;
+    align-self: center;
     font-weight: 600;
+    margin-top: 1px;
 }
 
-.activity-cnt {
-    font-size: 13px;
-    font-weight: 500;
-}
-
-.v-cmnts {
-    margin-right: 19px;
+.card-blog-txt-align2{
+    top:79.8%;
 }
 
 
@@ -824,8 +849,10 @@ header {
 
 .blog-img-props {
     background-repeat: no-repeat;
-    padding-bottom: 12px;
+    height: 159px;
+    position: relative;
 }
+
 
 
 .horizontal-blog1 {
@@ -847,10 +874,14 @@ header {
 .hr-blog-content {
     border-bottom: 1px solid #dfdfdf;
     width: 240px;
-    padding-top: 10.2px;
+    padding-top: 12px;
     padding-left: 19.2px;
     background-color: white;
     margin-left: 2px;
+}
+
+.hr-blog-content a{
+    color: #000000;
 }
 
 .hr-blog-content h5 {
@@ -860,7 +891,7 @@ header {
 
 .hr-blog-content p {
     font-size: 14px;
-    margin-top: 8px;
+    margin-top: 7px;
     line-height: 20.6px;
     margin-bottom: 26px;
 }
@@ -873,7 +904,7 @@ header {
 
 .hr-dot {
     align-self: center;
-    margin-top: 15px;
+    margin-top: 22px;
     font-size: 23px;
 }
 
@@ -913,28 +944,29 @@ header {
 
 .hr-blog-img1 {
     background-image: url('/public/hcard1-image1.png');
-    margin-left: 1px;
+    left: 2px;
 }
 
 .hr-blog-img2 {
     background-image: url('/public/hcard2-image.png');
-    margin-left: 2px;
+    left: 1px;
 }
 
 .hr-blog-img3 {
     background-image: url('/public/hcard3-image.png');
-    margin-left: 2px;
-
+    left: 2px;
 }
 
 .hr2-blog-img1 {
     background-image: url('/public/bottom-image-1.png');
-    margin-left: 1px;
+    left: 2px;
 }
 
 .blog-img-props2 {
     background-repeat: no-repeat;
     height: 303px;
+    position: relative;
+    top: 2px;
 }
 
 .hr-blog1 {
@@ -946,13 +978,23 @@ header {
     margin-left: 21px;
 }
 
+.hr-card-align{
+    top: 82.8%;
+}
+
+.hr-card-align1{
+    top: 82%;
+}
 
 .hr-blog-content1 {
     border-bottom: 1px solid #dfdfdf;
-    padding-top: 12px;
+    padding-top: 13px;
     padding-left: 20px;
     background-color: white;
-    padding-bottom: 7px;
+}
+
+.hr-blog-content1 a{
+    color: #000000;
 }
 
 .hr-blog-content1 h4 {
@@ -964,10 +1006,11 @@ header {
 
 .hr-blog-content1 p {
     font-family: 'Open Sans';
-    font-size: 17px;
-    margin-top: 7px;
-    line-height: 26.2px;
-    margin-bottom: 6px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin-top: 6.2px;
+    line-height: 26.4px;
+    margin-bottom: 12px;
 }
 
 
@@ -976,7 +1019,7 @@ header {
     justify-content: space-between;
     background-color: white;
     padding: 15px;
-    padding-top: 14px;
+    padding-top: 15px;
     padding-left: 20px;
 }
 
@@ -1039,6 +1082,36 @@ header {
     margin-left: 1px;
 }
 
+.hr1-card-align{
+    top: 88%;
+    left: 4.5%;
+}
+
+.hr1-card-align1{
+    top: 87.3%;
+    left: 73.4%;
+}
+
+.hr1-card-align1 .likes__card > i{
+    margin-top: 2px;
+    margin-left: 1px;
+}
+
+.hr1-card-align1 .likes__card > span{
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+.hr1-card-align1 .comment__card > i{
+    margin-top: 2.7px;
+    /* margin-left: 1px; */
+}
+
+.hr1-card-align1 .comment__card > span{
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
 .img-txt2 {
     margin-top: 243px;
 }
@@ -1057,6 +1130,10 @@ header {
 
 .card-cmnt1 {
     margin-top: 1px;
+}
+
+.hr-user-content a{
+    color: #000000;
 }
 
 /*------------------------------------------------  */
