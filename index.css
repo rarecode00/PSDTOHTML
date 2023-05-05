@@ -179,39 +179,39 @@ a {
     font-size: 23px;
 } */
 
-.social-link{
+.social-link {
     color: #8b8b8b;
 }
 
-.header-text-color{
+.header-text-color {
     font-size: 12px;
     font-weight: 600;
     color: #8b8b8b;
     margin-top: 1px;
 }
 
-.account_circle{
+.account_circle {
     font-size: 20px;
 }
 
-.header-right{
+.header-right {
     color: #8b8b8b;
     display: flex;
     align-items: center;
 }
 
 
-.header-right-acc a{
+.header-right-acc a {
     display: flex;
     align-items: center;
     margin-right: 6px;
 }
 
-.header-right-acc{
+.header-right-acc {
     padding-top: 1px;
 }
 
-.header-right-acc a span{
+.header-right-acc a span {
     margin-right: 5.5px;
 }
 
@@ -220,38 +220,38 @@ a {
     align-items: center;
 }
 
-.header-right-lang  {
+.header-right-lang {
     padding-top: 1px;
 }
 
-#text-sign-in{
+#text-sign-in {
     word-spacing: 2px;
 }
 
-#account_circle{
+#account_circle {
     font-size: 19px;
 }
 
-#lang-icon{
+#lang-icon {
     font-size: 19px;
     margin-right: 5.5px;
     margin-left: 10px;
 }
 
-#keyboard-arrow-down{
+#keyboard-arrow-down {
     font-size: 19px;
 }
 
-#expand_more{
+#expand_more {
     width: 15.5px;
     font-size: 20px;
 }
 
-.fa-angle-down{
-    font-size:12px;
+.fa-angle-down {
+    font-size: 12px;
 }
 
-.pipe{
+.pipe {
     margin-left: 2px;
     margin-top: 2px;
     height: 20px;
@@ -270,6 +270,7 @@ header {
     background-image: url(public/cover.png);
     background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
     flex-direction: column;
     align-items: center;
     padding-bottom: 65px;
@@ -286,11 +287,11 @@ header {
     letter-spacing: 1px;
 }
 
-.bottom-nav-list >  a{
+.bottom-nav-list>a {
     margin-right: 25px;
 }
 
-.nav-list-container{
+.nav-list-container {
     margin-left: 90px;
 }
 
@@ -361,13 +362,13 @@ header {
 
 .bottom-mid-content {
     margin-top: 212px;
-    flex-direction:column;
+    flex-direction: column;
 }
 
 .bottom-mid-content h2 {
     margin-left: 5.4px;
     font-weight: 500;
-    font-size: 1.3121rem;
+    font-size: 20.994px;
     color: #b9b9b9;
 }
 
@@ -392,7 +393,7 @@ header {
     margin-left: 4px;
     padding-left: 26px;
     padding-right: 29px;
-    border-radius: 25px; 
+    border-radius: 25px;
     font-size: 17px;
     font-weight: 700;
     border: none;
@@ -414,7 +415,7 @@ header {
     margin-bottom: 14px;
 }
 
-.bottom-lower-content a:nth-child(3){
+.bottom-lower-content a:nth-child(3) {
     margin-top: 4px;
     margin-left: 1px;
 }
@@ -423,7 +424,7 @@ header {
     letter-spacing: .2px;
     color: #e2e2e2;
     font-weight: bolder;
-    font-size: .9rem;
+    font-size: 14.4px;
 }
 
 .header-author-date {
@@ -439,9 +440,8 @@ header {
     align-items: center;
 }
 
-.navbar-comment-container a:nth-child(1){
-    padding-right: 26px;
-    /* left: 0px; */
+.navbar-comment-container a:nth-child(1) {
+    padding-right: 20px;
 }
 
 .comment-image,
@@ -480,7 +480,7 @@ header {
 
 .sort-blog-container div>a {
     padding: 9px 22px 6px 25px;
-    border-radius: 1.2rem;
+    border-radius: 19.2px;
     background-color: #f0f0f0;
 }
 
@@ -527,6 +527,7 @@ header {
 
 .body-content-container {
     background-color: #f0f0f0;
+    overflow-x: hidden;
 }
 
 
@@ -565,7 +566,7 @@ header {
     letter-spacing: .6px;
 }
 
-.main-blog-content a{
+.main-blog-content a {
     color: #000000;
 }
 
@@ -619,26 +620,26 @@ header {
     left: 2.2%;
 }
 
-.main-blog-txt h6{
+.main-blog-txt h6 {
     font-size: 12.6px;
 }
 
-.main-head-align{
+.main-head-align {
     top: 92.6%;
 }
 
-.main-blog-align{
+.main-blog-align {
     left: 87.1%;
 }
 
 .main-blog-txt .v-card-blog-caption {
     font-size: 12.2px;
-    font-weight: 600;    
+    font-weight: 600;
 }
 
 .container-comment {
     margin-top: 1px;
-    position: relative;
+    /* position: relative; */
 }
 
 .container-comment span {
@@ -670,7 +671,7 @@ header {
     margin-left: 2px;
 }
 
-.lke-icon{
+.lke-icon {
     margin-left: 19px;
 }
 
@@ -679,11 +680,8 @@ header {
     justify-self: center;
     color: #000000;
     margin-top: 2px;
+    margin-right: 4.8px;
 }
-
-/* .dot-icon span{
-    font:18px;
-} */
 
 
 
@@ -693,17 +691,10 @@ header {
     flex-direction: column;
 }
 
-.card-blog:first-child{
+.card-blog:first-child {
     margin-top: 20px;
 }
 
-.card-blog:not(:first-child){
-    margin-top: 19px;
-}
-
-.card-blog:last-child{
-    margin-top: 18px;
-}
 
 
 .card-img-props {
@@ -711,7 +702,7 @@ header {
     height: 167px;
     width: 55%;
     position: relative;
-    left: 2px;
+    /* left: 2px; */
 }
 
 .card-blog-img1 {
@@ -732,13 +723,17 @@ header {
     height: 164px;
 }
 
+.card-blog-content a{
+    color: #000000;
+}
+
 .card-blog-content h4 {
     padding-left: 20px;
     padding-top: 9px;
     letter-spacing: .4px;
 }
 
-.card-blog-content > p {
+.card-blog-content>p {
     font-family: 'Open Sans';
     padding-top: 8px;
     padding-left: 19px;
@@ -755,7 +750,9 @@ header {
     justify-content: space-between;
 }
 
-
+.card-dot{
+    margin-right: 11px;
+}
 
 .card-blog-user div>div {
     margin-left: 10px;
@@ -764,6 +761,13 @@ header {
     color: #191919;
 }
 
+.card-blog:not(:first-child) {
+    margin-top: 19px;
+}
+
+.card-blog:last-child {
+    margin-top: 18px;
+}
 .card-blog-user h5 {
     color: #191919;
 }
@@ -779,6 +783,7 @@ header {
     font-size: 21px;
     margin-top: 5px;
 }
+
 .last-card-blog {
     margin-top: .2px;
 }
@@ -788,7 +793,7 @@ header {
     margin-top: 20px;
 }
 
-.card-play-icon{
+.card-play-icon {
     position: absolute;
     color: white;
     left: 50%;
@@ -796,42 +801,42 @@ header {
     transform: translate(-50%, -46%);
 }
 
-.card-blog-txt{
+.card-blog-txt {
     position: absolute;
     top: 80%;
     left: 7%;
     color: #ffffff;
 }
 
-.card-blog-align{
+.card-blog-align {
     top: 78.4%;
     left: 59.7%;
 }
 
-.card-blog-txt-align3{
-    top:79.7%;
+.card-blog-txt-align3 {
+    top: 79.7%;
 }
 
-.likes__card{
+.likes__card {
     margin-left: 50px;
 }
 
-.card-blog-txt{
+.card-blog-txt {
     font-size: 18.6px;
     font-weight: 100;
 }
 
-.card-play-icon span{
+.card-play-icon span {
     font-size: 48px;
 }
 
-.card-icons-lkes{
+.card-icons-lkes {
     font-size: 18px;
     color: white;
     margin-right: 5px;
 }
 
-.activity-cnt2{
+.activity-cnt2 {
     font-size: 14px;
     color: white;
     align-self: center;
@@ -839,8 +844,8 @@ header {
     margin-top: 1px;
 }
 
-.card-blog-txt-align2{
-    top:79.8%;
+.card-blog-txt-align2 {
+    top: 79.8%;
 }
 
 
@@ -880,7 +885,7 @@ header {
     margin-left: 2px;
 }
 
-.hr-blog-content a{
+.hr-blog-content a {
     color: #000000;
 }
 
@@ -898,7 +903,7 @@ header {
 
 .hr-blog-user {
     background-color: white;
-    padding: 15px 15px 15px 20px;
+    padding: 15px 9px 15px 20px;
 }
 
 
@@ -978,11 +983,11 @@ header {
     margin-left: 21px;
 }
 
-.hr-card-align{
+.hr-card-align {
     top: 82.8%;
 }
 
-.hr-card-align1{
+.hr-card-align1 {
     top: 82%;
 }
 
@@ -993,7 +998,7 @@ header {
     background-color: white;
 }
 
-.hr-blog-content1 a{
+.hr-blog-content1 a {
     color: #000000;
 }
 
@@ -1018,9 +1023,7 @@ header {
 .hr-blog-user1 {
     justify-content: space-between;
     background-color: white;
-    padding: 15px;
-    padding-top: 15px;
-    padding-left: 20px;
+    padding: 15px 10px 15px 20px;
 }
 
 .hr-user-content {
@@ -1082,32 +1085,32 @@ header {
     margin-left: 1px;
 }
 
-.hr1-card-align{
+.hr1-card-align {
     top: 88%;
     left: 4.5%;
 }
 
-.hr1-card-align1{
+.hr1-card-align1 {
     top: 87.3%;
     left: 73.4%;
 }
 
-.hr1-card-align1 .likes__card > i{
+.hr1-card-align1 .likes__card>i {
     margin-top: 2px;
     margin-left: 1px;
 }
 
-.hr1-card-align1 .likes__card > span{
+.hr1-card-align1 .likes__card>span {
     margin-top: 0px;
     margin-left: 0px;
 }
 
-.hr1-card-align1 .comment__card > i{
+.hr1-card-align1 .comment__card>i {
     margin-top: 2.7px;
     /* margin-left: 1px; */
 }
 
-.hr1-card-align1 .comment__card > span{
+.hr1-card-align1 .comment__card>span {
     margin-top: 0px;
     margin-left: 0px;
 }
@@ -1132,7 +1135,7 @@ header {
     margin-top: 1px;
 }
 
-.hr-user-content a{
+.hr-user-content a {
     color: #000000;
 }
 
@@ -1140,7 +1143,8 @@ header {
 
 .right-body-container {
     background-color: white;
-    margin-left: 40px;
+    margin-left: 42px;
+    padding-right: 100%;
 }
 
 .custom-search-bar {
@@ -1150,7 +1154,7 @@ header {
 
 .custom-search-bar input {
     padding: 13px 100px 13px 13px;
-    border-radius: 1.2rem;
+    border-radius: 19.2px;
     background-color: #f0f0f0;
     border: none;
 }
@@ -1160,9 +1164,9 @@ header {
     display: inline-block;
 }
 
-.coloured-searchicon{
+.coloured-searchicon {
     position: absolute;
-    left:85%;
+    left: 85%;
     top: 8%;
     background-color: #ff4081;
     color: white;
@@ -1198,7 +1202,7 @@ input::placeholder {
 .r-category-item {
     font-size: 14.7px;
     margin: 1px 0px 0px 6.7px;
-    padding-bottom: 10px;
+    padding-bottom: 13px;
     color: #000000;
     font-weight: 400;
     border-bottom: 1px solid #b9b9b9;
@@ -1221,7 +1225,8 @@ input::placeholder {
 }
 
 .r-subscribe {
-    margin-top: 29px;
+    margin-top: 28px;
+    margin-left: 1px;
 }
 
 .r-subscribe .r-heading {
@@ -1301,7 +1306,6 @@ button.subscribe-button {
     margin-top: 18px;
     margin-left: 3px;
     display: flex;
-    /* align items center horizontally and vertically */
     justify-content: center;
     align-items: center;
 }
@@ -1321,40 +1325,40 @@ button.subscribe-button {
     padding-top: 10px;
 }
 
-.subscribe-icons .twitter{
+.subscribe-icons .twitter {
     background-color: #55acee;
     margin-left: 2px;
     padding-top: 9px;
     padding-bottom: 9px;
 }
 
-.subscribe-icons .vk{
+.subscribe-icons .vk {
     background-color: #4c75a3;
     margin-left: 3px;
     padding-top: 8px;
     padding-bottom: 8px;
 }
 
-.subscribe-icons .pn{
+.subscribe-icons .pn {
     background-color: #ff2e56;
     margin-left: 1px;
     margin-right: 0px;
 }
 
-.subscribe-icons .tmb{
+.subscribe-icons .tmb {
     background-color: #34465d;
     margin-left: 8px;
 }
 
-.subscribe-icons .dr{
+.subscribe-icons .dr {
     background-color: #ea4c89;
 }
 
-.post-heading{
+.post-heading {
     font-size: 18px;
     padding-right: 10px;
     margin-top: 43.3px;
-    padding-bottom:6.2px;
+    padding-bottom: 6.2px;
 }
 
 .post-buttons {
@@ -1376,17 +1380,15 @@ button.subscribe-button {
     border: 1.1302083333333333px solid #3f51b5;
 }
 
-.post-buttons button:first-child{
+.post-buttons button:first-child {
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
     padding-right: 22px;
 }
 
-.post-buttons button:last-child{
+.post-buttons button:last-child {
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
     padding-left: 19px;
     padding-right: 18px;
 }
-
-
