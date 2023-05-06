@@ -1235,7 +1235,7 @@ input::placeholder {
 }
 
 .r-subscribe .r-heading {
-    font-size: 18px;
+    font-size: 19px;
 }
 
 .subscribe-container {
@@ -1243,7 +1243,9 @@ input::placeholder {
 }
 
 .subscribe-container label {
-    margin-bottom: 11px;
+    margin-bottom: 10px;
+    font-family: 'Open Sans';
+    letter-spacing: 1px;
 }
 
 .subscribe-container input {
@@ -1252,15 +1254,26 @@ input::placeholder {
 }
 
 .email-container {
-    margin-top: 14px;
+    margin-top: 13.2px;
+}
+
+.email-container input{
+    margin-top: 1px;
 }
 
 .subscribe-container input::placeholder {
     font-family: 'Open Sans';
     position: relative;
     top: 12.6px;
-    left: 8.4px;
+    letter-spacing: 1px;
+    left: 7.5px;
 }
+
+/* .sub
+
+.name-container label{
+    letter-spacing: 1px;
+} */
 
 div.subscribe-button {
     margin-top: 10px;
@@ -1271,7 +1284,7 @@ button.subscribe-button {
     padding-bottom: 12px;
     padding-top: 11.2px;
     font-weight: 600;
-    padding-left: 89px;
+    padding-left: 88px;
     padding-right: 78px;
     font-size: 17px;
     background-color: #3f51b5;
@@ -1326,7 +1339,7 @@ button.subscribe-button {
     width: 100%;
     margin-right: 9px;
     padding-bottom: 8px;
-    padding-top: 10px;
+    padding-top: 9.2px;
 }
 
 .subscribe-icons .twitter {
@@ -1376,18 +1389,18 @@ button.subscribe-button {
 }
 
 .post-buttons button {
-    padding: 14px 11px 12px 25px;
+    padding: 13px 10px 11px 25px;
     background-color: white;
     color: #3f51b5;
     font-size: 12px;
-    margin-top: 6px;
+    margin-top: 7px;
     border: 1.1302083333333333px solid #3f51b5;
 }
 
 .post-buttons button:first-child {
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
-    padding-right: 22px;
+    padding-right: 23px;
 }
 
 .post-buttons button:last-child {
