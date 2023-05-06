@@ -616,31 +616,25 @@ header {
     color: white;
     display: flex;
     position: absolute;
-    top: 92%;
+    /* top: 92%; */
     left: 2.2%;
 }
 
-.main-blog-txt h6 {
-    font-size: 12.6px;
+.main-blog-img-head{
+    font-size: 12.1px;
+    font-weight: 500;
 }
 
 .main-head-align {
-    top: 92.6%;
+    /* top: 92.62%; */
+    bottom: 16px;
 }
 
 .main-blog-align {
     left: 87.1%;
+    bottom: 15px;
 }
 
-.main-blog-txt .v-card-blog-caption {
-    font-size: 12.2px;
-    font-weight: 600;
-}
-
-.container-comment {
-    margin-top: 1px;
-    /* position: relative; */
-}
 
 .container-comment span {
     margin-right: 19px;
@@ -652,8 +646,8 @@ header {
     color: #dfdfdf;
 }
 
-.main-blog-txt span {
-    font-size: 15px;
+.main-blog-txt:not(:nth-child(2)) span {
+    font-size: 14px;
     color: #dfdfdf;
 }
 
@@ -682,8 +676,6 @@ header {
     margin-top: 2px;
     margin-right: 4.8px;
 }
-
-
 
 /* Verticals blogs */
 
@@ -1190,30 +1182,43 @@ input::placeholder {
     color: #3f51b5;
     margin-left: 7.2px;
     border-bottom: 1px solid #2962ff;
-    padding-bottom: 5px;
+    padding-bottom: 5.2px;
     padding-right: 144px;
     margin-bottom: 12px;
 }
 
-.r-category-item span a {
+.r-category-item span{
     font-family: 'Open Sans';
 }
 
 .r-category-item {
-    font-size: 14.7px;
-    margin: 1px 0px 0px 6.7px;
-    padding-bottom: 13px;
+    font-size: 15px;
+    margin: 0px 0px 0px 7px;
+    padding-bottom: 11px;
     color: #000000;
     font-weight: 400;
     border-bottom: 1px solid #b9b9b9;
 }
 
-.r-category-item:not(:first-child) span {
-    margin-top: 7.7px;
+
+.r-category-item span:first-child{
+    margin-top: 1px;
+    font-size: 15px;
+    font-weight: 500;
 }
 
-.r-category-item:first-child span {
-    margin-top: 1px;
+
+.r-category-item:not(:first-child) span {
+    margin-top: 7px;
+}
+
+.r-category-item:nth-child(n + 3) {
+    margin-bottom: 1px;
+    margin-top: .8px;
+}
+
+.r-category-item span:last-child{
+    margin-right: 1px;
 }
 
 .r-category-item:last-child {
@@ -1231,7 +1236,6 @@ input::placeholder {
 
 .r-subscribe .r-heading {
     font-size: 18px;
-    padding-bottom: 6px;
 }
 
 .subscribe-container {
