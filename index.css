@@ -1409,3 +1409,27 @@ button.subscribe-button {
     padding-left: 19px;
     padding-right: 18px;
 }
+
+.r-post-img{
+    background-image:url('/public/r-post1.jpg');
+    background-repeat: no-repeat;
+    height: 80px;
+    padding-right: 37%;
+    margin-top: 3px;
+}
+
+.r-post{
+    display: flex;
+    margin-left: 8px;
+    margin-top: 15.2px;
+}
+
+.date-cmnt-container{
+    display: flex;
+    font-size: 13px;
+    margin-left: 14px;
+}
+
+.date-cmnt-container span{
+    font-family: 'Open Sans';
+}
