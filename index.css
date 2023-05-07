@@ -1411,17 +1411,38 @@ button.subscribe-button {
 }
 
 .r-post-img{
-    background-image:url('/public/r-post1.jpg');
     background-repeat: no-repeat;
     height: 80px;
     padding-right: 37%;
-    margin-top: 3px;
+    margin-top: 5px;
+    padding-bottom: 15px;
+}
+
+.r-post-img1{
+    background-image: url('/public/r-post1.jpg');
+}
+.r-post-img2{
+    background-image: url('/public/r-post2.jpg');
+}
+.r-post-img3{
+    background-image: url('/public/r-post3.jpg');
+}
+.r-post-img4{
+    background-image: url('/public/r-post4.jpg');
 }
 
 .r-post{
     display: flex;
     margin-left: 8px;
+    border-bottom: 1px solid #dee5e9;
+}
+
+.r-post:first-child{
     margin-top: 15.2px;
+}
+
+.r-post:not(:first-child){
+    margin-top: 10px;
 }
 
 .date-cmnt-container{
@@ -1432,4 +1453,23 @@ button.subscribe-button {
 
 .date-cmnt-container span{
     font-family: 'Open Sans';
+}
+
+.r-cmnts{
+    margin-left: 45px;
+}
+
+.r-cmnts i{
+    font-size: 14px;
+    color: #3f51b5;
+}
+
+.r-widget-content{
+    font-family: 'Open Sans';
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 21px;
+    margin-left: 14px;
+    margin-top: 2px;
 }
