@@ -1423,9 +1423,11 @@ button.subscribe-button {
 }
 .r-post-img2{
     background-image: url('/public/r-post2.jpg');
+    padding-bottom: 15.3px;
 }
 .r-post-img3{
     background-image: url('/public/r-post3.jpg');
+    padding-bottom: 16px;
 }
 .r-post-img4{
     background-image: url('/public/r-post4.jpg');
@@ -1437,6 +1439,7 @@ button.subscribe-button {
     border-bottom: 1px solid #dee5e9;
 }
 
+
 .r-post:first-child{
     margin-top: 15.2px;
 }
@@ -1445,6 +1448,14 @@ button.subscribe-button {
     margin-top: 10px;
 }
 
+.r-post:last-child{
+    /* margin-top: 10px; */
+    border: none;
+}
+
+.r-post-container a{
+    color: #000000;
+}
 .date-cmnt-container{
     display: flex;
     font-size: 13px;
@@ -1457,6 +1468,7 @@ button.subscribe-button {
 
 .r-cmnts{
     margin-left: 45px;
+    margin-top: 1px;
 }
 
 .r-cmnts i{
@@ -1464,12 +1476,40 @@ button.subscribe-button {
     color: #3f51b5;
 }
 
+.r-cmnts span{
+    font-weight: 500;
+}
+
 .r-widget-content{
     font-family: 'Open Sans';
     font-size: 14px;
-    font-weight: 500;
+    font-weight: 600;
     letter-spacing: 1px;
     line-height: 21px;
     margin-left: 14px;
     margin-top: 2px;
+}
+
+.tags-heading{
+    margin-top: 29px;
+    margin-left: 9px;
+    font-size: 18px;
+    padding-bottom: 6.2px;
+    margin-bottom: 20px;
+}
+
+.r-tag-btn{
+    padding: 4px 16px 6.2px 15px;
+    border-radius: 5px;
+    background-color: #eeeeee;
+    border: none;
+    font-family: 'Open Sans';
+    font-size:14px;
+    margin-right: 5px;
+    letter-spacing: .5px;
+    margin-bottom: 10px;
+}
+
+.tags-container{
+    margin-left: 8px;
 }
