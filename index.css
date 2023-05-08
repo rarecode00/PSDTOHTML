@@ -77,12 +77,16 @@ a {
 
 .custom-container {
     background-color: #191919;
+
 }
 
 .custom-nav {
     width: 1170px;
     height: 40px;
     background-color: #191919;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .custom-left-icons {
@@ -200,7 +204,7 @@ a {
 }
 
 .header-right-acc a span {
-    margin-right: 5.5px;
+    margin-right: 4.5px;
 }
 
 .header-right-lang a {
@@ -219,7 +223,7 @@ a {
 }
 
 #text-eng {
-    margin-top: 0;
+    margin-top: 4px;
     margin-bottom: 1px;
   }
 
@@ -229,7 +233,7 @@ a {
 
 #lang-icon {
     font-size: 19px;
-    margin-right: 5.5px;
+    margin-right: 2.5px;
     margin-left: 10px;
 }
 
@@ -266,6 +270,7 @@ header {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    display: flex;
     flex-direction: column;
     align-items: center;
     padding-bottom: 65px;
@@ -273,6 +278,7 @@ header {
 
 .bottom-nav-list {
     margin-top: 17px;
+    display: flex;
 }
 
 .bottom-nav-list h1 {
@@ -288,11 +294,16 @@ header {
 
 .nav-list-container {
     margin-left: 90px;
+    display: flex;
 }
 
 .active-bar {
     border-bottom: 4px solid #b93664;
     height: 40px;
+}
+
+.all-nav-list{
+    display: flex;
 }
 
 .all-nav-list span {
@@ -327,6 +338,8 @@ header {
 }
 
 .nav-list-icons {
+    display: flex;
+    justify-content: space-between;
     margin-left: 32px;
     margin-top: 2px;
 }
@@ -357,6 +370,8 @@ header {
 
 .bottom-mid-content {
     margin-top: 212px;
+    display: flex;
+    align-items: center;
     flex-direction: column;
 }
 
@@ -403,6 +418,11 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.bottom-lower-content > a:first-child{
+      display: flex;
+      flex-direction: column;
 }
 
 
@@ -465,6 +485,7 @@ header {
 }
 
 .sort-blog-container {
+    display: flex;
     width: 1170px;
     background-color: #ffffff;
     font-size: 7px;
@@ -481,6 +502,7 @@ header {
 
 .sort-blog-list {
     margin-top: 10px;
+    align-items:center;
 }
 
 .sort-blog-list a {
@@ -517,6 +539,7 @@ header {
 
 
 .body-container {
+    display: flex;
     margin-top: 30px;
 }
 
@@ -527,6 +550,7 @@ header {
 
 
 .main-blog-img {
+    /* display: flex; */
     background-image: url(/public/main-blog.png);
     background-repeat: no-repeat;
     height: 420px;
@@ -615,6 +639,10 @@ header {
     left: 2.2%;
 }
 
+.main-blog-txt div a{
+    align-items: center;
+}
+
 .main-blog-img-head{
     font-size: 12.1px;
     font-weight: 500;
@@ -629,6 +657,7 @@ header {
     left: 87.1%;
     bottom: 15px;
 }
+
 
 
 .container-comment span {
@@ -653,6 +682,12 @@ header {
 .main-blog-user {
     padding: 17.2px 6px 19px 20px;
     background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.user{
+    display:flex;
 }
 
 .main-blog-user img {
@@ -676,6 +711,10 @@ header {
 
 .vertical-blogs {
     flex-direction: column;
+}
+
+.card-blog{
+    display: flex;
 }
 
 .card-blog:first-child {
@@ -707,7 +746,7 @@ header {
 .card-blog-content {
     border-bottom: 1px solid #dfdfdf;
     background-color: white;
-    height: 164px;
+    height: 164.7px;
 }
 
 .card-blog-content a{
@@ -715,8 +754,8 @@ header {
 }
 
 .card-blog-content h4 {
-    padding-left: 20px;
-    padding-top: 9px;
+    padding-left: 19px;
+    padding-top: 10px;
     letter-spacing: .4px;
 }
 
@@ -732,9 +771,14 @@ header {
 }
 
 .card-blog-user {
+    display: flex;
     margin-top: 11px;
     margin-left: 21px;
     justify-content: space-between;
+}
+
+.card-blog-user > div{
+    display: flex;
 }
 
 .card-dot{
@@ -743,7 +787,7 @@ header {
 
 .card-blog-user div>div {
     margin-left: 10px;
-    margin-top: 5px;
+    margin-top: 4.2px;
     font-size: 17.9px;
     color: #191919;
 }
@@ -790,18 +834,23 @@ header {
 
 .card-blog-txt {
     position: absolute;
-    top: 80%;
-    left: 7%;
+    bottom: 16px;
+    left: 8%;
     color: #ffffff;
 }
 
+.card-blog-txt span{
+    font-size: 12px;
+    font-weight: 500;
+}
+
 .card-blog-align {
-    top: 78.4%;
-    left: 59.7%;
+    bottom: 16.6px;
+    left: 60.3%;
 }
 
 .card-blog-txt-align3 {
-    top: 79.7%;
+   bottom: 16.8px;
 }
 
 .likes__card {
@@ -823,8 +872,11 @@ header {
     margin-right: 5px;
 }
 
+.card-blog-txt a > span{
+    font-size: 13px;
+}
+
 .activity-cnt2 {
-    font-size: 14px;
     color: white;
     align-self: center;
     font-weight: 600;
@@ -832,7 +884,8 @@ header {
 }
 
 .card-blog-txt-align2 {
-    top: 79.8%;
+    /* top: 79.8%; */
+    bottom: 16.2px;
 }
 
 
@@ -843,12 +896,15 @@ header {
     background-repeat: no-repeat;
     height: 159px;
     position: relative;
+    left: 2px;
 }
 
-
+.horizontal-blogs{
+    display: flex;
+}
 
 .horizontal-blog1 {
-    margin-top: 20px;
+    margin-top: 21px;
 }
 
 .horizontal-blog1:not(:last-child) {
@@ -866,7 +922,7 @@ header {
 .hr-blog-content {
     border-bottom: 1px solid #dfdfdf;
     width: 240px;
-    padding-top: 12px;
+    padding-top: 11.2px;
     padding-left: 19.2px;
     background-color: white;
     margin-left: 2px;
@@ -883,7 +939,7 @@ header {
 
 .hr-blog-content p {
     font-size: 14px;
-    margin-top: 7px;
+    margin-top: 7.2px;
     line-height: 20.6px;
     margin-bottom: 26px;
 }
@@ -893,10 +949,13 @@ header {
     padding: 15px 9px 15px 20px;
 }
 
+.hr-card-align1 i{
+    font-size: 18px;
+}
 
 .hr-dot {
     align-self: center;
-    margin-top: 22px;
+    margin-top: 20px;
     font-size: 23px;
 }
 
@@ -936,17 +995,14 @@ header {
 
 .hr-blog-img1 {
     background-image: url('/public/hcard1-image1.png');
-    left: 2px;
 }
 
 .hr-blog-img2 {
     background-image: url('/public/hcard2-image.png');
-    left: 1px;
 }
 
 .hr-blog-img3 {
     background-image: url('/public/hcard3-image.png');
-    left: 2px;
 }
 
 .hr2-blog-img1 {
@@ -971,11 +1027,14 @@ header {
 }
 
 .hr-card-align {
-    top: 82.8%;
+    bottom: 12px;
+    left: 17.8px;
 }
 
 .hr-card-align1 {
-    top: 82%;
+    /* top: 82%; */
+    bottom:11px;
+    left: 59.6%;
 }
 
 .hr-blog-content1 {
@@ -1000,9 +1059,9 @@ header {
     font-family: 'Open Sans';
     font-size: 16px;
     letter-spacing: 1px;
-    margin-top: 6.2px;
-    line-height: 26.4px;
-    margin-bottom: 12px;
+    margin-top: 7px;
+    line-height: 26px;
+    margin-bottom: 13px;
 }
 
 
@@ -1039,11 +1098,18 @@ header {
     padding: 3px;
 }
 
+
+
 .hr-author-name {
     font-size: 14.7px;
     margin-top: 2px;
     margin-left: 8px;
     font-weight: 700;
+}
+
+.hr-name-align{
+    margin-top: 1.2px;
+    font-size: 16px;
 }
 
 .hr-author-name a {
@@ -1055,6 +1121,10 @@ header {
     margin-top: 7px;
     margin-left: 8px;
     letter-spacing: .5px;
+}
+
+.hr-date-align{
+    margin-top: 5.2px;
 }
 
 .img-txt1 {
@@ -1073,8 +1143,8 @@ header {
 }
 
 .hr1-card-align {
-    top: 88%;
     left: 4.5%;
+    bottom: 19.9px;
 }
 
 .hr1-card-align1 {
