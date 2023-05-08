@@ -1609,12 +1609,14 @@ button.subscribe-button {
 .images-timeline{
     display: flex;
     justify-content: center;
+    overflow-x: hidden;
 }
 
 .images-timeline-props{
     background-repeat: no-repeat;
-    padding-right: 240px;
-    height: 300px;
+    padding-right: 239px;
+    height: 240px;
+    background-color: red;
 }
 
 .timeline-img1{
@@ -1642,8 +1644,55 @@ button.subscribe-button {
     background-image: url(/public/image-timeline8.png);
 }
 
-.b-newsletter{
+
+.subscribe-newletter{
     background-image: url(/public/newletter-bg.png);
     background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
+    justify-content: space-evenly;
+    padding: 72px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.b-newsletter{
+    display: flex;
+}
+
+.b-newsletter h1{
+    font-size: 41px;
+    font-weight: 900;
+    color: #ffffff;
+    letter-spacing: .7px;
+}
+
+.b-newsletter input{
+    border-radius: 25px;
+    border: 1px solid #ffffff;
+    background: transparent;
+    height: 42px;
+    margin-top: 6.2px;
+    padding-right: 100px;
+    padding-top: 1px;
+    padding-left: 10px;
+    margin-right:30px;
+}
+
+.b-newsletter button{
+    border-radius: 25px;
+    background-color: #3f51b5;
+    color: white;
+    padding-right: 28px;
+    padding-left: 34px;
+    font-size: 18px;
+    border: none;
+    height: 44px;
+    margin-top: 6px;
+    padding-bottom: 2px;
+    font-weight: 600;
+}
+
+.b-newsletter div:first-child{
+    margin-right: 64px;
 }
