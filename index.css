@@ -1070,7 +1070,7 @@ header {
 .hr-blog-user1 {
     justify-content: space-between;
     background-color: white;
-    padding: 15px 10px 15px 20px;
+    padding: 15px 10px 12px 20px;
 }
 
 .hr-user-content {
@@ -1195,6 +1195,30 @@ header {
 
 .hr-user-content a {
     color: #000000;
+}
+
+.left-more-icon{
+    padding: 26px 0px 43px 0px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.left-more-txt{
+    margin-right: 9px;
+    font-weight:500;
+    margin-top: 17px;
+    color: #3f51b5;
+    letter-spacing: .4px;
+}
+
+
+.b-colored-arrow{
+    background-color: #ffffff;
+    color: #3f51b5;
+    border-radius:24px;
+    padding: 9px;
+    margin-top: 16px;
 }
 
 /*------------------------------------------------  */
@@ -1578,4 +1602,48 @@ button.subscribe-button {
 
 .tags-container{
     margin-left: 8px;
+}
+
+/* Images Timeline */
+
+.images-timeline{
+    display: flex;
+    justify-content: center;
+}
+
+.images-timeline-props{
+    background-repeat: no-repeat;
+    padding-right: 240px;
+    height: 300px;
+}
+
+.timeline-img1{
+    background-image: url(/public/image-timeline1.png);
+}
+.timeline-img2{
+    background-image: url(/public/image-timeline2.png);
+}
+.timeline-img3{
+    background-image: url(/public/image-timeline3.png);
+}
+.timeline-img4{
+    background-image: url(/public/image-timeline4.png);
+}
+.timeline-img5{
+    background-image: url(/public/image-timeline5.png);
+}
+.timeline-img6{
+    background-image: url(/public/image-timeline6.png);
+}
+.timeline-img7{
+    background-image: url(/public/image-timeline7.png);
+}
+.timeline-img8{
+    background-image: url(/public/image-timeline8.png);
+}
+
+.b-newsletter{
+    background-image: url(/public/newletter-bg.png);
+    background-repeat: no-repeat;
+    display: flex;
 }
