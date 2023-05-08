@@ -204,7 +204,7 @@ a {
 }
 
 .header-right-acc a span {
-    margin-right: 4.5px;
+    margin-right: 5.5px;
 }
 
 .header-right-lang a {
@@ -233,7 +233,7 @@ a {
 
 #lang-icon {
     font-size: 19px;
-    margin-right: 2.5px;
+    margin-right: 4px;
     margin-left: 10px;
 }
 
@@ -242,8 +242,9 @@ a {
 }
 
 #expand_more {
-    width: 15.5px;
+    width: 14px;
     font-size: 20px;
+    margin-top: 1px;
 }
 
 .fa-angle-down {
@@ -251,7 +252,7 @@ a {
 }
 
 .pipe {
-    margin-left: 2px;
+    margin-left: 1px;
     margin-top: 2px;
     height: 20px;
     border-left: 1px solid #8b8b8b;
