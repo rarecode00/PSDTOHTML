@@ -505,7 +505,7 @@ header {
 .sort-blog-container div>a {
     padding: 9px 22px 6px 25px;
     border-radius: 19.2px;
-    background-color: #f0f0f0;
+    background-color: #f5f5f5;
 }
 
 .sort-blog-list {
@@ -514,7 +514,6 @@ header {
 }
 
 .sort-blog-list a {
-    font-weight: bolder;
     font-size: 12px;
 }
 
@@ -523,16 +522,16 @@ header {
     margin-left: 20px;
     border: 1px solid #3f51b5;
     color:#3f51b5;
-    font-weight: 400;
-    margin-right: 13.2px;
+    font-weight: 500;
+    margin-right: 12px;
     padding-right: 30px;
-    padding-top: 7px;
+    padding-top: 7.8px;
 }
 
 .sort-blog-list a:not(:first-child) {
-    margin-right: 15px;
+    margin-right: 16px;
     font-size: 12px;
-    font-weight: 400;
+    font-weight: 500;
     color: #000000;
     padding-top: 8px;
     padding-bottom: 7px;
@@ -596,6 +595,8 @@ header {
     padding-right: 0px;
     margin-top: 0.3px;
     letter-spacing: .6px;
+    font-weight: 700;
+    color: #000000;
 }
 
 .main-blog-content a {
@@ -608,6 +609,7 @@ header {
     line-height: 26px;
     word-spacing: .7px;
     letter-spacing: .6px;
+    font-weight: 400;
 }
 
 .main-blog-f {
@@ -622,18 +624,21 @@ header {
 
 .main-blog-details span {
     font-size: 12px;
+    color: #212121;
+    font-weight: 400;
 }
 
 .main-blog-details h5 {
-    color: #191919;
+    color: #000000;
+    font-weight: 600;
     font-size: 14.1px;
     margin-top: 2px;
-    margin-bottom: 2px;
-    letter-spacing: .8px;
+    margin-bottom: 2.6px;
+    letter-spacing: .4px;
 }
 
 .main-blog-play-icon {
-    color: white;
+    color: #ffffff;
     position: absolute;
     left: 50%;
     top: 50%;
@@ -645,11 +650,15 @@ header {
 }
 
 .main-blog-txt {
-    color: white;
+    color: #ffffff;
     display: flex;
     position: absolute;
-    /* top: 92%; */
     left: 2.2%;
+}
+
+.activity-cnt{
+    font-weight: 400;
+    margin-left: .2px;
 }
 
 .main-blog-txt div a {
@@ -658,11 +667,11 @@ header {
 
 .main-blog-img-head {
     font-size: 12.1px;
-    font-weight: 500;
+    font-weight: 400;
+    color: #ffffff;
 }
 
 .main-head-align {
-    /* top: 92.62%; */
     bottom: 16px;
 }
 
@@ -694,7 +703,7 @@ header {
 
 .main-blog-user {
     padding: 17.2px 6px 19px 20px;
-    background-color: white;
+    background-color: #ffffff;
     display: flex;
     justify-content: space-between;
 }
@@ -741,7 +750,7 @@ header {
     height: 167px;
     width: 55%;
     position: relative;
-    /* left: 2px; */
+    left: 2px;
 }
 
 .card-blog-img1 {
@@ -768,8 +777,9 @@ header {
 
 .card-blog-content h4 {
     padding-left: 19px;
-    padding-top: 10px;
-    letter-spacing: .4px;
+    padding-top: 9px;
+    letter-spacing: .5px;
+    font-weight: 700;
 }
 
 .card-blog-content>p {
@@ -780,7 +790,7 @@ header {
     font-size: 14px;
     letter-spacing: .6px;
     border-bottom: 1px solid #dfdfdf;
-    padding-bottom: 14px;
+    padding-bottom: 15px;
 }
 
 .card-blog-user {
@@ -799,7 +809,7 @@ header {
 }
 
 .card-blog-user div>div {
-    margin-left: 10px;
+    margin-left: 10.2px;
     margin-top: 4.2px;
     font-size: 17.9px;
     color: #191919;
@@ -815,6 +825,8 @@ header {
 
 .card-blog-user h5 {
     color: #191919;
+    font-weight: 500;
+    letter-spacing: .2px;
 }
 
 .card-blog-user div>div>a>p {
@@ -826,7 +838,7 @@ header {
 .card-blog-user>a {
     align-self: center;
     font-size: 21px;
-    margin-top: 5px;
+    margin-top: 4px;
 }
 
 .last-card-blog {
@@ -848,19 +860,20 @@ header {
 
 .card-blog-txt {
     position: absolute;
-    bottom: 16px;
-    left: 8%;
+    bottom: 17px;
+    left: 7%;
     color: #ffffff;
 }
 
 .card-blog-txt span {
     font-size: 12px;
-    font-weight: 500;
+    font-weight: 400;
+    letter-spacing: .1px;
 }
 
 .card-blog-align {
-    bottom: 16.6px;
-    left: 60.3%;
+    bottom: 17.3px;
+    left: 59.7%;
 }
 
 .card-blog-txt-align3 {
@@ -891,15 +904,15 @@ header {
 }
 
 .activity-cnt2 {
-    color: white;
+    color: #ffffff;
     align-self: center;
-    font-weight: 600;
-    margin-top: 1px;
+    font-weight: 400;
+    margin-top: 1.2px;
 }
 
 .card-blog-txt-align2 {
     /* top: 79.8%; */
-    bottom: 16.2px;
+    bottom: 17.5px;
 }
 
 
@@ -918,7 +931,7 @@ header {
 }
 
 .horizontal-blog1 {
-    margin-top: 21px;
+    margin-top: 20px;
 }
 
 .horizontal-blog1:not(:last-child) {
@@ -936,7 +949,7 @@ header {
 .hr-blog-content {
     border-bottom: 1px solid #dfdfdf;
     width: 240px;
-    padding-top: 11.2px;
+    padding-top: 12px;
     padding-left: 19.2px;
     background-color: white;
     margin-left: 2px;
@@ -952,10 +965,13 @@ header {
 }
 
 .hr-blog-content p {
+    font-family: 'Open Sans';
+    font-weight: 400;
     font-size: 14px;
     margin-top: 7.2px;
     line-height: 20.6px;
     margin-bottom: 26px;
+    letter-spacing: .5px;
 }
 
 .hr-blog-user {
@@ -965,6 +981,10 @@ header {
 
 .hr-card-align1 i {
     font-size: 18px;
+}
+
+.hr-blog-img1 .card-play-icon > span{
+    transform: translate(-2%, -2%);
 }
 
 .hr-dot {
@@ -1007,6 +1027,7 @@ header {
     margin-left: 4px;
 }
 
+
 .hr-blog-img1 {
     background-image: url('/public/hcard1-image1.png');
 }
@@ -1032,7 +1053,6 @@ header {
 }
 
 .hr-blog1 {
-    width: 400px;
     margin-top: 19px;
 }
 
@@ -1041,8 +1061,8 @@ header {
 }
 
 .hr-card-align {
-    bottom: 12px;
-    left: 17.8px;
+    bottom: 10.2px;
+    left: 17.9px;
 }
 
 .hr-card-align1 {
@@ -1054,16 +1074,19 @@ header {
 .hr-blog-content1 {
     border-bottom: 1px solid #dfdfdf;
     padding-top: 13px;
-    padding-left: 20px;
+    padding-left: 18.3px;
     background-color: white;
+    margin-left: 2px;
+    width: 95%;
 }
+
 
 .hr-blog-content1 a {
     color: #000000;
 }
 
 .hr-blog-content1 h4 {
-    line-height: 1.3rem;
+    line-height: 21px;
     letter-spacing: .7px;
     margin-left: 1px;
     font-size: 18px;
@@ -1072,8 +1095,8 @@ header {
 .hr-blog-content1 p {
     font-family: 'Open Sans';
     font-size: 16px;
-    letter-spacing: 1px;
-    margin-top: 7px;
+    letter-spacing: .7px;
+    margin-top: 6.2px;
     line-height: 26px;
     margin-bottom: 13px;
 }
@@ -1083,7 +1106,9 @@ header {
 .hr-blog-user1 {
     justify-content: space-between;
     background-color: white;
-    padding: 15px 10px 12px 20px;
+    padding: 15px 10px 12px 18.2px;
+    margin-left: 2px;
+    width: 92.3%;
 }
 
 .hr-user-content {
@@ -1094,6 +1119,8 @@ header {
 .hr-user-content span {
     font-size: 12.4px;
     margin-left: 1px;
+    letter-spacing: .8px;
+    font-weight: 400;
 }
 
 .hr-user-content h5 {
@@ -1101,7 +1128,7 @@ header {
     margin-top: 1px;
     margin-left: 2px;
     font-weight: 600;
-    margin-bottom: 3px;
+    margin-bottom: 3.2px;
 }
 
 .hr-blog-user1 i {
@@ -1118,7 +1145,7 @@ header {
     font-size: 14.7px;
     margin-top: 2px;
     margin-left: 8px;
-    font-weight: 700;
+    font-weight: 500;
 }
 
 .hr-name-align {
@@ -1128,6 +1155,10 @@ header {
 
 .hr-author-name a {
     color: black;
+}
+
+.hr-author-date a{
+    color: #212121;
 }
 
 .hr-author-date {
@@ -1158,7 +1189,7 @@ header {
 
 .hr1-card-align {
     left: 4.5%;
-    bottom: 19.9px;
+    bottom: 19.6px;
 }
 
 .hr1-card-align1 {
@@ -1249,8 +1280,8 @@ header {
 
 .custom-search-bar input {
     padding: 13px 100px 13px 13px;
-    border-radius: 19.2px;
-    background-color: #f0f0f0;
+    border-radius: 25px;
+    background-color: #f5f5f5;
     border: none;
 }
 
@@ -1264,14 +1295,16 @@ header {
     left: 85%;
     top: 8%;
     background-color: #ff4081;
-    color: white;
-    border-radius: 50%;
+    color: #ffffff;
+    border-radius: 20px;
     padding: 5px 6px 5px 5px;
 }
 
 input::placeholder {
     font-size: 16.2px;
     padding-left: 7px;
+    color: #000000;
+    font-weight: 400;
 }
 
 .r-container {
@@ -1281,9 +1314,9 @@ input::placeholder {
 
 .r-heading {
     font-size: 19px;
-    font-weight: 600;
+    font-weight: 700;
     color: #3f51b5;
-    margin-left: 7.2px;
+    margin-left: 6.2px;
     border-bottom: 1px solid #2962ff;
     padding-bottom: 5.2px;
     padding-right: 144px;
